@@ -1,0 +1,20 @@
+{
+  "quality_margin": 0.03,
+  "pilot_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "grid": [
+    0.03,
+    0.08,
+    0.15,
+    0.25
+  ],
+  "rule": "Lowest equal-cell mean service deficit on original pilot seeds only.",
+  "frozen_at_utc": "2026-10-14T21:21:36.739838+00:00",
+  "status": "Added exploratory diagnostic after independent code review, before main evaluation inspection."
+}

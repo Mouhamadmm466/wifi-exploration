@@ -1,0 +1,12 @@
+{
+  "completed_at_utc": "2026-10-14T21:26:29.912997+00:00",
+  "evaluation_rows": 2880,
+  "pilot_rows": 1728,
+  "selected_quality_margin": 0.03,
+  "status": "Review-added diagnostic. Output-path interface added and experiment rerun; numerical method unchanged.",
+  "source_sha256": {
+    "scripts/run_static_margin.py": "840413a0632ce8d7cb8aa1aefcee9e580a3a153d32582feacbb035d72a665fe4",
+    "src/roaming.py": "3a5786f197789496c708d2d7a8cdb78c84a45d1f88412731354eb8a94e16bcc7",
+    "configs/study.json": "8c26543222a18a16c84fbc5dc75e92b85f553e1c800fda1f39838cef8a5cadb0"
+  }
+}

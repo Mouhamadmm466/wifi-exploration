@@ -1,0 +1,4 @@
+# Python's CSV writer uses standard CRLF records. Preserve their bytes.
+*.csv -text whitespace=cr-at-eol
+# Matplotlib's SVG path data includes harmless spaces before line breaks.
+results/figures/*.svg -whitespace

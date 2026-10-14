@@ -1,0 +1,359 @@
+{
+  "scope": "Targeted recent review, not a systematic or exhaustive review",
+  "cutoff": "2026-10-14",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "A User-Centric Approach for Controlling Wi-Fi Handover Based on Application Context",
+      "authors": [
+        "Yoshiko Sueda",
+        "Hayato Saiki",
+        "Arata Koike"
+      ],
+      "year": 2026,
+      "date": "2026-02-25",
+      "date_note": "Issue date; presented 2026-03-05; citation month March 2026.",
+      "publication_type": "technical meeting report",
+      "venue": "IEICE Technical Report 125(386), IN2025-76, 79–84",
+      "doi": null,
+      "url": "https://ken.ieice.org/ken/paper/202603059csa/eng/",
+      "reading_depth": "English abstract and publisher metadata only; Japanese full report not accessed",
+      "inspected_sections": [
+        "English abstract",
+        "Paper Information"
+      ],
+      "relevance": "direct",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R02",
+      "title": "QoS-Aware Handoff Framework for Performance Optimization in Software-Defined Wi-Fi Networks.",
+      "authors": [
+        "Adnan Nadeem",
+        "Ahmed Ali",
+        "Nazish Ali",
+        "Sohaib Manzoor"
+      ],
+      "year": 2026,
+      "date": "2026-02-05",
+      "publication_type": "journal article",
+      "venue": "Telecommunication Systems 89, article 32",
+      "doi": "10.1007/s11235-026-01410-6",
+      "url": "https://link.springer.com/article/10.1007/s11235-026-01410-6",
+      "reading_depth": "Publisher abstract, author information and metadata only; full text subscription restricted",
+      "inspected_sections": [
+        "Abstract",
+        "Author information",
+        "About this article"
+      ],
+      "relevance": "direct",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R03",
+      "title": "Enhanced Load-Aware Handover Algorithm for High-Density IEEE 802.11 ESS Networks",
+      "authors": [
+        "Derrick Qin Sheng Wong",
+        "Chong Eng Tan"
+      ],
+      "year": 2025,
+      "date": "2025-10-25",
+      "publication_type": "journal article",
+      "venue": "ECTI Transactions on Computer and Information Technology 19(4), 635–644",
+      "doi": "10.37936/ecti-cit.2025194.263263",
+      "url": "https://ph01.tci-thaijo.org/index.php/ecticit/article/view/263263",
+      "fulltext_url": "https://ph01.tci-thaijo.org/index.php/ecticit/article/download/263263/175151/1035639",
+      "reading_depth": "Selected full-text methods, setup, results and discussion inspected",
+      "inspected_sections": [
+        "2 Methods",
+        "2.3 Network Topology and Simulation Environment",
+        "2.4 Traffic Model",
+        "3 Results",
+        "4 Discussion"
+      ],
+      "relevance": "direct",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R04",
+      "title": "On-Device LLM for Context-Aware Wi-Fi Roaming",
+      "authors": [
+        "Ju-Hyung Lee",
+        "Yanqing Lu",
+        "Klaus Doppler"
+      ],
+      "year": 2025,
+      "date": "2025-05-07",
+      "version": "arXiv v2, 2025-05-20",
+      "publication_type": "arXiv preprint; ICML 2025 ML4Wireless workshop paper",
+      "venue": "ML4Wireless workshop (not verified as ICML main-track)",
+      "doi": "10.48550/arXiv.2505.04174",
+      "url": "https://arxiv.org/abs/2505.04174",
+      "fulltext_url": "https://arxiv.org/html/2505.04174v2",
+      "artifact_url": "https://github.com/abman23/on-device-llm-wifi-roaming",
+      "reading_depth": "Selected full-text methods, evaluation, limitations and appendices inspected; repository README inspected",
+      "inspected_sections": [
+        "3.3 Evaluation",
+        "3.5 Limitations",
+        "4.3 Experiments",
+        "Appendix C Setup",
+        "Appendix D Data Collection"
+      ],
+      "relevance": "direct",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R05",
+      "title": "RAPSOVA: A Responsive, Adaptive, Scalable, and control plane Overhead-Aware framework for load balancing in Wi-Fi networks",
+      "authors": [
+        "Mohamed Bellouch",
+        "Lynda Zitoune",
+        "Iyad Lahsen-Cherif",
+        "Véronique Vèque"
+      ],
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_note": "Journal issue date, not independently established first-online date.",
+      "publication_type": "journal article",
+      "venue": "Computer Communications 255, article 108567",
+      "doi": "10.1016/j.comcom.2026.108567",
+      "url": "https://www.sciencedirect.com/science/article/pii/S014036642600157X",
+      "reading_depth": "Publisher-indexed abstract and conclusion excerpts only; direct page returned retrieval error; full text not accessed",
+      "inspected_sections": [
+        "Indexed publisher abstract",
+        "Indexed conclusion excerpt"
+      ],
+      "relevance": "direct load-balancing context",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R06",
+      "title": "Distributed Multi-Agent Deep Q-Learning for Fast Roaming in IEEE 802.11ax Wi-Fi Systems",
+      "authors": [
+        "Ting-Hui Wang",
+        "Li-Hsiang Shen",
+        "Kai-Ten Feng"
+      ],
+      "year": 2023,
+      "date": "2023-03-25",
+      "version": "arXiv v1; later IEEE CCNC 2024 publication indexed",
+      "publication_type": "arXiv preprint; later conference publication",
+      "venue": "2024 IEEE Consumer Communications & Networking Conference (CCNC)",
+      "doi": "10.48550/arXiv.2304.01210",
+      "url": "https://arxiv.org/abs/2304.01210",
+      "fulltext_url": "https://arxiv.org/html/2304.01210v1",
+      "publisher_url": "https://ieeexplore.ieee.org/document/10454741",
+      "reading_depth": "Selected full-text method and evaluation inspected; IEEE indexing verifies later venue",
+      "inspected_sections": [
+        "MADAR method",
+        "Table I",
+        "Performance evaluation",
+        "Conclusion"
+      ],
+      "relevance": "direct",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R07",
+      "title": "Multi-Link Operation and Wireless Digital Twin to Support Enhanced Roaming in Next-Gen Wi-Fi",
+      "authors": [
+        "Stefano Scanzio",
+        "Matteo Rosani",
+        "Gabriele Formis",
+        "Dave Cavalcanti",
+        "Valerio Frascolla",
+        "Guido Marchetto",
+        "Gianluca Cena"
+      ],
+      "year": 2024,
+      "date": "2024-04-28",
+      "version": "arXiv v2, 2024-11-18",
+      "publication_type": "conference paper with arXiv preprint",
+      "venue": "20th IEEE International Conference on Factory Communication Systems (WFCS 2024)",
+      "doi": "10.48550/arXiv.2404.18313",
+      "url": "https://arxiv.org/abs/2404.18313",
+      "fulltext_url": "https://arxiv.org/html/2404.18313v2",
+      "reading_depth": "Full-text architecture and operations sections inspected",
+      "inspected_sections": [
+        "II System architecture",
+        "III Main operations and components"
+      ],
+      "relevance": "adjacent architecture",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R08",
+      "title": "Unlocking Mobility for Wi-Fi-Based Wireless Time-Sensitive Networks",
+      "authors": [
+        "Pablo Avila-Campos",
+        "Jetmir Haxhibeqiri",
+        "Xianjun Jiao",
+        "Ben Van Herbruggen",
+        "Ingrid Moerman",
+        "Jeroen Hoebeke"
+      ],
+      "year": 2024,
+      "date": "2024-02-23",
+      "publication_type": "journal article",
+      "venue": "IEEE Access 12, 30687–30699",
+      "doi": "10.1109/ACCESS.2024.3369481",
+      "url": "https://biblio.ugent.be/publication/01HT260J62BD4W3QAS1SPH8P35",
+      "fulltext_url": "https://backoffice.biblio.ugent.be/download/01HT260J62BD4W3QAS1SPH8P35/01HT262K38E2S7NVKFT4WGMV0Z",
+      "reading_depth": "Selected published full-text method, results and conclusion inspected; metadata cross-checked with institutional record",
+      "inspected_sections": [
+        "III Handover procedure",
+        "V Results",
+        "VI Conclusion and future work"
+      ],
+      "relevance": "direct execution and timing",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R09",
+      "title": "Make Before Degrade: A Context-Aware Software-Defined WiFi Handover",
+      "authors": [
+        "Víctor M. G. Martínez",
+        "Rafael S. Guimarães",
+        "Ricardo C. Mello",
+        "Alexandre P. do Carmo",
+        "Raquel F. Vassallo",
+        "Rodolfo Villaça",
+        "Moisés R. N. Ribeiro",
+        "Magnos Martinello"
+      ],
+      "year": 2023,
+      "date": "2023-03-15",
+      "publication_type": "conference paper/book chapter",
+      "venue": "Advanced Information Networking and Applications, LNNS 654, 562–572 (AINA 2023)",
+      "doi": "10.1007/978-3-031-28451-9_49",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-28451-9_49",
+      "reading_depth": "Publisher abstract and metadata only; full chapter subscription restricted",
+      "inspected_sections": [
+        "Abstract",
+        "Author list",
+        "Publication metadata"
+      ],
+      "relevance": "direct timing with external context",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R10",
+      "title": "Model-Free QoE-Aware Seamless Handoff in Heterogeneous Wireless Networks",
+      "authors": [
+        "Kaustubh Ranjan Singh",
+        "Rashmi Chaudhry",
+        "Vinay Rishiwal",
+        "Mano Yadav"
+      ],
+      "year": 2024,
+      "date": "2024-04-04",
+      "publication_type": "journal article",
+      "venue": "Mobile Networks and Applications 29, 1938–1950",
+      "doi": "10.1007/s11036-024-02305-z",
+      "url": "https://link.springer.com/article/10.1007/s11036-024-02305-z",
+      "reading_depth": "Publisher abstract and metadata only; full text subscription restricted",
+      "inspected_sections": [
+        "Abstract",
+        "Author list",
+        "Publication metadata"
+      ],
+      "relevance": "adjacent heterogeneous handoff",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R11",
+      "title": "COHERE -- Congestion-aware Offloading and Handover via Empirical RAT Evaluation for Multi-RAT Networks",
+      "authors": [
+        "Pavan K. Mangipudi",
+        "Sharon Boamah",
+        "Lorenz Carvajal",
+        "Janise Mcnair"
+      ],
+      "year": 2025,
+      "date": "2025-11-01",
+      "version": "arXiv v1",
+      "publication_type": "arXiv preprint; peer-reviewed venue not verified",
+      "venue": "arXiv",
+      "doi": "10.48550/arXiv.2511.00439",
+      "url": "https://arxiv.org/abs/2511.00439",
+      "fulltext_url": "https://arxiv.org/html/2511.00439v1",
+      "reading_depth": "Selected full-text model, decision design and numerical results inspected",
+      "inspected_sections": [
+        "V MCDM based handover",
+        "VI COHERE framework",
+        "VII-A Numerical Results"
+      ],
+      "relevance": "adjacent multi-RAT congestion",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R12",
+      "title": "PEARL: Peer-Enhanced Adaptive Radio via On-Device LLM",
+      "authors": [
+        "Ju-Hyung Lee",
+        "Yanqing Lu",
+        "Klaus Doppler"
+      ],
+      "year": 2025,
+      "date": "2025-09-28",
+      "version": "arXiv v2, 2025-10-28",
+      "publication_type": "arXiv preprint; NeurIPS 2025 AI4NextG workshop paper",
+      "venue": "AI4NextG workshop (not NeurIPS main-track)",
+      "doi": "10.48550/arXiv.2509.24085",
+      "url": "https://arxiv.org/abs/2509.24085",
+      "fulltext_url": "https://arxiv.org/html/2509.24085v2",
+      "artifact_url": "https://github.com/abman23/pearl",
+      "reading_depth": "Selected full-text reward design, evaluation, limitations and appendices inspected; author repository verifies workshop",
+      "inspected_sections": [
+        "3.2 Context-Aware Reward Design",
+        "4 Experiments",
+        "5 Discussion limitations",
+        "Appendix C",
+        "Appendix D"
+      ],
+      "relevance": "adjacent application-aware D2D control",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R13",
+      "title": "Proactive Roaming Prediction using LSTM in Industrial Wi-Fi-based AGV Networks",
+      "authors": [
+        "Yonghan Kwon",
+        "Jae Hong Shin",
+        "Jeongyeup Paek"
+      ],
+      "year": 2026,
+      "date": null,
+      "date_note": "Year and ICOIN venue verified in full paper; exact publication date not verified.",
+      "publication_type": "conference paper",
+      "venue": "2026 International Conference on Information Networking (ICOIN), 321–324",
+      "doi": "10.1109/ICOIN68469.2026.11480529",
+      "doi_note": "Identifier cross-checked in bibliographic index; primary full paper used for scientific content.",
+      "url": "https://nsl.cau.ac.kr/papers/ictc/icoin2026-kwon-roaming.pdf",
+      "fulltext_url": "https://nsl.cau.ac.kr/papers/ictc/icoin2026-kwon-roaming.pdf",
+      "publisher_url": "https://ieeexplore.ieee.org/document/11480529",
+      "reading_depth": "Selected full-text dataset, approach, evaluation and conclusion inspected",
+      "inspected_sections": [
+        "III-A Dataset",
+        "III-C Approach",
+        "IV Evaluation",
+        "V Conclusion"
+      ],
+      "relevance": "direct prediction, not closed-loop control",
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    }
+  ]
+}

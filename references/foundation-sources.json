@@ -1,0 +1,70 @@
+{
+  "scope": "Foundational primary studies selected for conceptual overlap",
+  "cutoff": "2026-10-14",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "A user application-based access point selection algorithm for dense WLANs",
+      "authors": ["Mun-Suk Kim", "Yena Kim", "SeungSeob Lee", "SuKyoung Lee", "Nada Golmie"],
+      "year": 2019,
+      "date": "2019-01-16",
+      "publication_type": "journal article",
+      "venue": "PLOS ONE 14(1), e0210738",
+      "doi": "10.1371/journal.pone.0210738",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210738",
+      "reading_depth": "Selected full-text measurement, application traffic, selection, switching and evaluation sections",
+      "inspected_sections": ["3", "4", "5", "6"],
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "F02",
+      "title": "Optimization of WLAN associations considering handover costs",
+      "authors": ["Peter Dely", "Andreas Kassler", "Nico Bayer", "Hans Einsiedler", "Christoph Peylo"],
+      "year": 2012,
+      "date": "2012-08-16",
+      "publication_type": "journal article",
+      "venue": "EURASIP Journal on Wireless Communications and Networking 2012, 255",
+      "doi": "10.1186/1687-1499-2012-255",
+      "url": "https://link.springer.com/article/10.1186/1687-1499-2012-255",
+      "reading_depth": "Selected full-text model, objectives, baselines, evaluation, sliding-window method and limitations",
+      "inspected_sections": ["Introduction", "Dynamic network model", "Static optimization", "Sliding window-based dynamic optimization", "Conclusion"],
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "F03",
+      "title": "Channel load aware AP / Extender selection in Home WiFi networks using IEEE 802.11k/v",
+      "authors": ["Toni Adame", "Marc Carrascosa", "Boris Bellalta", "Iván Pretel", "Iñaki Etxebarria"],
+      "year": 2021,
+      "date": null,
+      "date_note": "First preprint 2020-04-17; arXiv v2 2021-02-22; IEEE Access volume 9 (2021)",
+      "publication_type": "journal article with author preprint",
+      "venue": "IEEE Access 9",
+      "doi": "10.1109/ACCESS.2021.3059473",
+      "url": "https://arxiv.org/abs/2004.08110",
+      "fulltext_url": "https://arxiv.org/pdf/2004.08110",
+      "reading_depth": "Selected full-text mechanism, metric, simulation assumptions, testbed and future challenges",
+      "inspected_sections": ["IV", "V", "VI", "VII", "VIII"],
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    },
+    {
+      "id": "F04",
+      "title": "Facilitating Access Point Selection in IEEE 802.11 Wireless Networks",
+      "authors": ["S. Vasudevan", "K. Papagiannaki", "C. Diot", "J. Kurose", "D. Towsley"],
+      "year": 2005,
+      "date": null,
+      "date_note": "Conference record lists October 2005",
+      "publication_type": "conference paper",
+      "venue": "Internet Measurement Conference 2005",
+      "doi": null,
+      "url": "https://www.usenix.org/conference/imc-05/facilitating-access-point-selection-ieee-80211-wireless-networks",
+      "fulltext_url": "https://www.usenix.org/legacy/events/imc05/tech/full_papers/vasudevan/vasudevan.pdf",
+      "reading_depth": "Selected full-text estimation, experiments and limitations",
+      "inspected_sections": ["1", "3", "4", "5"],
+      "accessed_date": "2026-10-14",
+      "independently_reproduced": false
+    }
+  ]
+}

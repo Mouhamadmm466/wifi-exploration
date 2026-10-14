@@ -1,0 +1,18 @@
+{
+  "main_rows": 17280,
+  "unique_main_rows": 17280,
+  "cell_policy_groups": 432,
+  "seeds_per_cell_policy": 40,
+  "static_rows_compared": 2880,
+  "static_equality": "All eight outcome metrics equal application-myopic exactly.",
+  "main_source_hashes_match": true,
+  "metric_fraction_bounds_pass": true,
+  "test_suite": "10 tests passed, including two model-mismatch tests and emergency no-guaranteed-rescue semantics.",
+  "all_manifest_source_hashes_match": true,
+  "static_full_rerun_csv_exact_match": true,
+  "mismatch_full_rerun_csv_exact_match": true,
+  "main_sample_runs_regenerated": 96,
+  "main_sample_exact_match": true,
+  "relative_markdown_links_exist": true,
+  "figure_visual_check": "Both PNGs inspected; no clipped labels."
+}

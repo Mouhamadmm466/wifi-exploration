@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "rssi_hysteresis_db": 2.0,
+    "load_relative_margin": 0.15,
+    "horizon_seconds": 8.0,
+    "age_penalty": 0.05
+  },
+  "pilot_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "rule": "Lowest equal-cell mean service deficit on pilot seeds only; lexicographic tie break.",
+  "caution": "Synthetic within-model tuning. Application-myopic margin is fixed, not tuned.",
+  "frozen_at_utc": "2026-10-14T21:19:25.189099+00:00"
+}

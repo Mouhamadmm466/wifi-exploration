@@ -1,0 +1,39 @@
+{
+  "model_version": "abstract-roaming-v1",
+  "duration_seconds": 180.0,
+  "step_seconds": 0.25,
+  "ap_positions_m": [0, 24, 48, 72, 96, 120],
+  "corridor_offset_m": 3.0,
+  "report_period_seconds": 1.0,
+  "telemetry_delays_seconds": [0.0, 2.0, 8.0],
+  "blackout_seconds": [0.02, 0.2],
+  "scenarios": ["balanced", "hotspots", "overloaded", "abrupt", "reversal", "short_dwell"],
+  "profiles": ["realtime", "bulk"],
+  "pilot_seeds": [11, 12, 13, 14, 15, 16],
+  "evaluation_seeds": [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040],
+  "minimum_residence_seconds": 2.0,
+  "emergency_rssi_dbm": -78.0,
+  "quality_margin": 0.03,
+  "age_penalty_scale_seconds": 2.0,
+  "planning_horizon_grid_seconds": [1.0, 3.0, 8.0],
+  "age_penalty_grid": [0.05, 0.15, 0.3],
+  "rssi_hysteresis_grid_db": [2.0, 4.0, 6.0],
+  "load_relative_margin_grid": [0.05, 0.15, 0.3],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 6042026,
+  "profiles_parameters": {
+    "realtime": {"demand_mbps": 4.0, "rtt_budget_ms": 80.0, "radio_loss_budget": 0.02, "latency_weight": 0.25, "loss_weight": 0.15},
+    "bulk": {"demand_mbps": 20.0, "rtt_budget_ms": 1000.0, "radio_loss_budget": 0.1, "latency_weight": 0.0, "loss_weight": 0.0}
+  },
+  "radio_parameters": {
+    "reference_rssi_dbm": -36.0,
+    "path_loss_exponent": 3.0,
+    "maximum_rate_mbps": 72.0,
+    "rate_reference_rssi_dbm": -55.0,
+    "rate_drop_scale_db": 20.0,
+    "signal_ar_coefficient": 0.93,
+    "signal_innovation_std_db": 0.55,
+    "load_ar_coefficient": 0.94,
+    "load_innovation_std": 0.018
+  }
+}

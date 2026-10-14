@@ -1,0 +1,1632 @@
+{
+  "completed_at_utc": "2026-10-14T21:26:12.923170+00:00",
+  "diagnostic": {
+    "description": "Exploratory stress test of candidate-service model error, added during review. No retuning.",
+    "scenarios": [
+      "hotspots",
+      "abrupt"
+    ],
+    "profiles": [
+      "realtime",
+      "bulk"
+    ],
+    "telemetry_delays_seconds": [
+      0.0,
+      8.0
+    ],
+    "blackout_seconds": [
+      0.02,
+      0.2
+    ],
+    "evaluation_seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020
+    ],
+    "truth_variants": [
+      "matched",
+      "half_capacity",
+      "uneven_capacity"
+    ],
+    "uneven_capacity_range": [
+      0.35,
+      1.0
+    ],
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 14102026
+  },
+  "selected_parameters": {
+    "rssi_hysteresis_db": 2.0,
+    "load_relative_margin": 0.15,
+    "horizon_seconds": 8.0,
+    "age_penalty": 0.05
+  },
+  "rows": 5760,
+  "true_capacity_factors": [
+    {
+      "scenario": "hotspots",
+      "seed": 1001,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1001,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1001,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8797358666823998,
+        0.9763015785786924,
+        0.6581556010788883,
+        0.5378172880410825,
+        0.8539957400132671,
+        0.6187663331998039
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1002,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1002,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1002,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.364757180017012,
+        0.6453937901611254,
+        0.8659009707389883,
+        0.44086176902970786,
+        0.9326790517163183,
+        0.8271161912630753
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1003,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1003,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1003,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.9505737898790718,
+        0.9279246420399654,
+        0.385806094110912,
+        0.49634072313257255,
+        0.7328429943568511,
+        0.8849420529297732
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1004,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1004,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1004,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.3592418040278807,
+        0.9820549493344813,
+        0.3968939033706274,
+        0.6717738952113785,
+        0.3610477314450195,
+        0.440525446492467
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1005,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1005,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1005,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.808943768623463,
+        0.6752326867749325,
+        0.9025602730800769,
+        0.8820970509860748,
+        0.4483423847154445,
+        0.7356573375806337
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1006,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1006,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1006,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.9434450529560157,
+        0.6328428616849708,
+        0.42724604569970337,
+        0.3914211966072383,
+        0.8551626276535902,
+        0.6927231449253255
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1007,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1007,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1007,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5523733557546334,
+        0.9462328178939631,
+        0.6586614919785069,
+        0.8039480687288971,
+        0.8731733093604556,
+        0.6382805884954081
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1008,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1008,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1008,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5565923856949719,
+        0.6721924052787274,
+        0.849301115247778,
+        0.9747920160401545,
+        0.8790940636798089,
+        0.6263407478160593
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1009,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1009,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1009,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5440183070059115,
+        0.8537894856421466,
+        0.7441748782641476,
+        0.5553756951255712,
+        0.48620361404848556,
+        0.7487546120515906
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1010,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1010,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1010,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.47194299245732535,
+        0.35562019838479714,
+        0.46060504107257516,
+        0.685231861337252,
+        0.4151150107478725,
+        0.8715202416416545
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1011,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1011,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1011,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.6478270911829448,
+        0.6641043324471525,
+        0.5830288611698857,
+        0.36569233444246746,
+        0.6164543357330283,
+        0.6808928891402851
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1012,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1012,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1012,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8226844106406597,
+        0.6240872790679772,
+        0.6485290832464973,
+        0.9072573359519381,
+        0.7757350599622057,
+        0.45883858034297753
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1013,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1013,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1013,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.6953194668388232,
+        0.6766084940227336,
+        0.9691506464449628,
+        0.5261020338756335,
+        0.41332807600388727,
+        0.9889550919089317
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1014,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1014,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1014,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.48655039581809395,
+        0.9687418975338654,
+        0.7242234906010653,
+        0.9559863126251097,
+        0.36036959905231836,
+        0.5004478046564814
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1015,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1015,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1015,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.4095909860363716,
+        0.38968545661699755,
+        0.6541991940192027,
+        0.9315937297632546,
+        0.7484425704477825,
+        0.392199437984634
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1016,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1016,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1016,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.35096930519025954,
+        0.4102301557399049,
+        0.7375043907726132,
+        0.631689235931167,
+        0.49655407049633826,
+        0.6947079074012874
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1017,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1017,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1017,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8954624621483153,
+        0.558182072601165,
+        0.7749018955872302,
+        0.939734050706891,
+        0.4644202353955581,
+        0.9408643787510949
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1018,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1018,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1018,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8351380139907016,
+        0.6860011151565597,
+        0.9720683783120136,
+        0.4051183924227867,
+        0.8852978580519236,
+        0.8326539861926097
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1019,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1019,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1019,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.516206853713524,
+        0.40907990488593116,
+        0.8105356599797398,
+        0.9671259934509862,
+        0.7269023609841518,
+        0.8437830929646191
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1020,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1020,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "hotspots",
+      "seed": 1020,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8558571720467303,
+        0.7156258306561238,
+        0.6777594439783836,
+        0.60759922444854,
+        0.986664667867424,
+        0.45660833500169434
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1001,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1001,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1001,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8797358666823998,
+        0.9763015785786924,
+        0.6581556010788883,
+        0.5378172880410825,
+        0.8539957400132671,
+        0.6187663331998039
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1002,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1002,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1002,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.364757180017012,
+        0.6453937901611254,
+        0.8659009707389883,
+        0.44086176902970786,
+        0.9326790517163183,
+        0.8271161912630753
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1003,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1003,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1003,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.9505737898790718,
+        0.9279246420399654,
+        0.385806094110912,
+        0.49634072313257255,
+        0.7328429943568511,
+        0.8849420529297732
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1004,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1004,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1004,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.3592418040278807,
+        0.9820549493344813,
+        0.3968939033706274,
+        0.6717738952113785,
+        0.3610477314450195,
+        0.440525446492467
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1005,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1005,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1005,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.808943768623463,
+        0.6752326867749325,
+        0.9025602730800769,
+        0.8820970509860748,
+        0.4483423847154445,
+        0.7356573375806337
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1006,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1006,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1006,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.9434450529560157,
+        0.6328428616849708,
+        0.42724604569970337,
+        0.3914211966072383,
+        0.8551626276535902,
+        0.6927231449253255
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1007,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1007,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1007,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5523733557546334,
+        0.9462328178939631,
+        0.6586614919785069,
+        0.8039480687288971,
+        0.8731733093604556,
+        0.6382805884954081
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1008,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1008,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1008,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5565923856949719,
+        0.6721924052787274,
+        0.849301115247778,
+        0.9747920160401545,
+        0.8790940636798089,
+        0.6263407478160593
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1009,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1009,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1009,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.5440183070059115,
+        0.8537894856421466,
+        0.7441748782641476,
+        0.5553756951255712,
+        0.48620361404848556,
+        0.7487546120515906
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1010,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1010,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1010,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.47194299245732535,
+        0.35562019838479714,
+        0.46060504107257516,
+        0.685231861337252,
+        0.4151150107478725,
+        0.8715202416416545
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1011,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1011,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1011,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.6478270911829448,
+        0.6641043324471525,
+        0.5830288611698857,
+        0.36569233444246746,
+        0.6164543357330283,
+        0.6808928891402851
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1012,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1012,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1012,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8226844106406597,
+        0.6240872790679772,
+        0.6485290832464973,
+        0.9072573359519381,
+        0.7757350599622057,
+        0.45883858034297753
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1013,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1013,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1013,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.6953194668388232,
+        0.6766084940227336,
+        0.9691506464449628,
+        0.5261020338756335,
+        0.41332807600388727,
+        0.9889550919089317
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1014,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1014,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1014,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.48655039581809395,
+        0.9687418975338654,
+        0.7242234906010653,
+        0.9559863126251097,
+        0.36036959905231836,
+        0.5004478046564814
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1015,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1015,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1015,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.4095909860363716,
+        0.38968545661699755,
+        0.6541991940192027,
+        0.9315937297632546,
+        0.7484425704477825,
+        0.392199437984634
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1016,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1016,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1016,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.35096930519025954,
+        0.4102301557399049,
+        0.7375043907726132,
+        0.631689235931167,
+        0.49655407049633826,
+        0.6947079074012874
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1017,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1017,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1017,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8954624621483153,
+        0.558182072601165,
+        0.7749018955872302,
+        0.939734050706891,
+        0.4644202353955581,
+        0.9408643787510949
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1018,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1018,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1018,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8351380139907016,
+        0.6860011151565597,
+        0.9720683783120136,
+        0.4051183924227867,
+        0.8852978580519236,
+        0.8326539861926097
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1019,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1019,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1019,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.516206853713524,
+        0.40907990488593116,
+        0.8105356599797398,
+        0.9671259934509862,
+        0.7269023609841518,
+        0.8437830929646191
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1020,
+      "variant": "matched",
+      "factors": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1020,
+      "variant": "half_capacity",
+      "factors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "scenario": "abrupt",
+      "seed": 1020,
+      "variant": "uneven_capacity",
+      "factors": [
+        0.8558571720467303,
+        0.7156258306561238,
+        0.6777594439783836,
+        0.60759922444854,
+        0.986664667867424,
+        0.45660833500169434
+      ]
+    }
+  ],
+  "status": "Exploratory review-added sensitivity; evaluation seeds reused, no retuning.",
+  "source_sha256": {
+    "scripts/run_model_mismatch.py": "3b3447029ee43d7082f5ce13dcb3574d214a170dddb37d663557e1297d9fe286",
+    "src/roaming.py": "3a5786f197789496c708d2d7a8cdb78c84a45d1f88412731354eb8a94e16bcc7",
+    "configs/study.json": "8c26543222a18a16c84fbc5dc75e92b85f553e1c800fda1f39838cef8a5cadb0",
+    "configs/model-mismatch.json": "5728337502665f3e82a359d45d955e5c183218aabe2b2ff7d45ff2f18ac49e68",
+    "results/selected_parameters.json": "b228df8959422840f2f124a61ae2a3637092ab9a83fc2a053c43d3fb9e49b306"
+  }
+}

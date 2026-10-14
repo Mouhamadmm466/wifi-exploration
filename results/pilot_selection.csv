@@ -1,0 +1,16 @@
+variant,policy,mean_service_deficit,runs,rssi_hysteresis_db,load_relative_margin,horizon_seconds,age_penalty
+rssi_hysteresis_2.0,rssi,0.2012137441779359,432,2.0,0.15,3.0,0.15
+rssi_hysteresis_4.0,rssi,0.2067226322248498,432,4.0,0.15,3.0,0.15
+rssi_hysteresis_6.0,rssi,0.21463810276013023,432,6.0,0.15,3.0,0.15
+load_margin_0.05,load_aware,0.19635893790016995,432,4.0,0.05,3.0,0.15
+load_margin_0.15,load_aware,0.19607909108419705,432,4.0,0.15,3.0,0.15
+load_margin_0.3,load_aware,0.19705334090966695,432,4.0,0.3,3.0,0.15
+candidate_horizon_1.0_penalty_0.05,proposed,0.20354818413116055,432,4.0,0.15,1.0,0.05
+candidate_horizon_1.0_penalty_0.15,proposed,0.20728615318629282,432,4.0,0.15,1.0,0.15
+candidate_horizon_1.0_penalty_0.3,proposed,0.21879105200475732,432,4.0,0.15,1.0,0.3
+candidate_horizon_3.0_penalty_0.05,proposed,0.19443730485628197,432,4.0,0.15,3.0,0.05
+candidate_horizon_3.0_penalty_0.15,proposed,0.19795950296620465,432,4.0,0.15,3.0,0.15
+candidate_horizon_3.0_penalty_0.3,proposed,0.21038174450767427,432,4.0,0.15,3.0,0.3
+candidate_horizon_8.0_penalty_0.05,proposed,0.1939982848265915,432,4.0,0.15,8.0,0.05
+candidate_horizon_8.0_penalty_0.15,proposed,0.19630851420651607,432,4.0,0.15,8.0,0.15
+candidate_horizon_8.0_penalty_0.3,proposed,0.2076904787182333,432,4.0,0.15,8.0,0.3
