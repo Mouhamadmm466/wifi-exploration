@@ -1,0 +1,9 @@
+{
+  "check_time_utc": "2026-10-14T22:07:17.976546+00:00",
+  "before_sha256": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+  "after_sha256": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+  "byte_equality": true,
+  "analysis_tests_passed": 4,
+  "change": "Cache identical bootstrap index sequences by sample size, repetitions, and seed. Paired output is byte-identical to uncached implementation.",
+  "scope": "Main paired_contrasts.csv; simulation code and statistical method unchanged."
+}

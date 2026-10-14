@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-14T22:18:22.794353+00:00",
+  "source_sha256": "116534ab52bb6ae527b184881505b994c589f0cbdc48865e4b772c3bba668f2f",
+  "pdf_sha256": "a992e6ff8b72da87efdbef63a03711b8171fede2efb6ac27300b41dc2ef41c56",
+  "pages": 15,
+  "figures": 6,
+  "tables": 5,
+  "cited_references": 17,
+  "abstract_word_count": 197,
+  "desktop_compiler": "success on final source",
+  "pdf_export_compiler": "Tectonic 0.17.0",
+  "rendering": "All15pages inspected in montage; figure pages3,9,10,11,14 individually; corrected11/14 re-rendered and inspected.",
+  "latex_warnings": [],
+  "unresolved_markers": false,
+  "input_hashes_match": true,
+  "generated_data_audit": "docs/packet-paper-review.md",
+  "unit_tests_passed": 29,
+  "scope": "Agent and automated review; no physical validation or completed human author review is claimed."
+}

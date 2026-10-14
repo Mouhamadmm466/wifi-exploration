@@ -1,0 +1,646 @@
+{
+  "completed_at_utc": "2026-10-14T21:52:03.439373+00:00",
+  "elapsed_seconds": 128.70345426897984,
+  "files": {
+    "development_runs.csv": "dc75b86f0249a8cc4b98b7e83e06cdb06c6fb25e8af9f91f79ce5f5e83d903a4"
+  },
+  "frozen_at_utc": "2026-10-14T21:52:03.437930+00:00",
+  "platform": "macOS-26.6.2-x86_64-i386-64bit-Mach-O",
+  "protocol": {
+    "config": {
+      "drain_seconds": 0.3,
+      "duration_seconds": 60
+    },
+    "development_history": {
+      "extension_configurations": 43,
+      "extension_runs": 1032,
+      "initial_configurations": 19,
+      "initial_runs": 456,
+      "reason": "Initial best settings met grid boundaries and the candidate underperformed the load-aware baseline. Expanded once before opening held-out data; no further tuning after this extension."
+    },
+    "development_scenarios": [
+      {
+        "ap_positions_m": [
+          0,
+          24,
+          48,
+          72,
+          96,
+          120
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.35,
+        "burst_period_seconds": 8,
+        "lateral_m": 3,
+        "load_pattern": "flat",
+        "mobility": "linear",
+        "name": "dev_corridor",
+        "path_end_m": 120,
+        "path_start_m": 0,
+        "signal_noise_db": 1.5,
+        "speed_mps": 1.0
+      },
+      {
+        "ap_positions_m": [
+          0,
+          24,
+          48,
+          72,
+          96,
+          120
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.65,
+        "burst_period_seconds": 8,
+        "lateral_m": 3,
+        "load_pattern": "alternating",
+        "mobility": "linear",
+        "name": "dev_hotspot",
+        "path_end_m": 120,
+        "path_start_m": 0,
+        "signal_noise_db": 1.5,
+        "speed_mps": 1.2
+      },
+      {
+        "ap_positions_m": [
+          0,
+          24,
+          48,
+          72,
+          96,
+          120
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.55,
+        "burst_period_seconds": 8,
+        "lateral_m": 3,
+        "load_pattern": "alternating",
+        "mobility": "shuttle",
+        "name": "dev_reversal",
+        "path_end_m": 120,
+        "path_start_m": 0,
+        "signal_noise_db": 1.5,
+        "speed_mps": 2.5
+      }
+    ],
+    "development_seeds": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007,
+      20008
+    ],
+    "heldout_scenarios": [
+      {
+        "ap_positions_m": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.4,
+        "burst_period_seconds": 8,
+        "lateral_m": 3,
+        "load_pattern": "flat",
+        "mobility": "linear",
+        "name": "wide_corridor",
+        "path_end_m": 150,
+        "path_start_m": 0,
+        "signal_noise_db": 2,
+        "speed_mps": 1.8
+      },
+      {
+        "ap_positions_m": [
+          0,
+          12,
+          24,
+          36,
+          48,
+          60
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.5,
+        "burst_period_seconds": 5,
+        "lateral_m": 3,
+        "load_pattern": "alternating",
+        "mobility": "shuttle",
+        "name": "short_cells",
+        "path_end_m": 60,
+        "path_start_m": 0,
+        "signal_noise_db": 2,
+        "speed_mps": 4.5
+      },
+      {
+        "ap_positions_m": [
+          0,
+          19,
+          38,
+          57,
+          76,
+          95
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.6,
+        "burst_period_seconds": 6,
+        "lateral_m": 3,
+        "load_pattern": "alternating",
+        "mobility": "shuttle",
+        "name": "reversals",
+        "path_end_m": 85,
+        "path_start_m": 10,
+        "signal_noise_db": 2,
+        "speed_mps": 2.6
+      },
+      {
+        "ap_positions_m": [
+          0,
+          17,
+          42,
+          68,
+          92,
+          122
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.6,
+        "burst_period_seconds": 7,
+        "lateral_m": 3,
+        "load_pattern": "alternating",
+        "mobility": "linear",
+        "name": "hidden_hotspot",
+        "path_end_m": 122,
+        "path_start_m": 0,
+        "per_ap_load": [
+          0.25,
+          0.9,
+          0.3,
+          0.85,
+          0.45,
+          0.7
+        ],
+        "signal_noise_db": 2,
+        "speed_mps": 2.3
+      },
+      {
+        "ap_positions_m": [
+          0,
+          21,
+          44,
+          67,
+          91,
+          116
+        ],
+        "background_users_per_ap": 4,
+        "base_load": 0.48,
+        "burst_period_seconds": 5,
+        "lateral_m": 3,
+        "load_pattern": "bursty",
+        "mobility": "linear",
+        "name": "burst_load",
+        "path_end_m": 116,
+        "path_start_m": 0,
+        "signal_noise_db": 2,
+        "speed_mps": 2
+      },
+      {
+        "ap_positions_m": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119
+        ],
+        "background_users_per_ap": 12,
+        "base_load": 0.85,
+        "burst_period_seconds": 4,
+        "lateral_m": 3,
+        "load_pattern": "bursty",
+        "mobility": "sine",
+        "name": "crowded",
+        "path_end_m": 119,
+        "path_start_m": 0,
+        "signal_noise_db": 2.5,
+        "speed_mps": 1.5
+      }
+    ],
+    "heldout_seeds": [
+      50001,
+      50002,
+      50003,
+      50004,
+      50005,
+      50006,
+      50007,
+      50008,
+      50009,
+      50010,
+      50011,
+      50012,
+      50013,
+      50014,
+      50015,
+      50016,
+      50017,
+      50018,
+      50019,
+      50020,
+      50021,
+      50022,
+      50023,
+      50024,
+      50025,
+      50026,
+      50027,
+      50028,
+      50029,
+      50030,
+      50031,
+      50032,
+      50033,
+      50034,
+      50035,
+      50036,
+      50037,
+      50038,
+      50039,
+      50040
+    ],
+    "parameter_grids": {
+      "app_myopic": [
+        {
+          "app_margin": 0
+        },
+        {
+          "app_margin": 0.03
+        },
+        {
+          "app_margin": 0.08
+        },
+        {
+          "app_margin": 0.15
+        },
+        {
+          "app_margin": 0.25
+        },
+        {
+          "app_margin": 0.4
+        }
+      ],
+      "cautious_v1": [
+        {
+          "planning_horizon_seconds": 1
+        },
+        {
+          "planning_horizon_seconds": 3
+        },
+        {
+          "planning_horizon_seconds": 8
+        },
+        {
+          "planning_horizon_seconds": 16
+        }
+      ],
+      "load_aware": [
+        {
+          "load_margin": 0.05
+        },
+        {
+          "load_margin": 0.15
+        },
+        {
+          "load_margin": 0.3
+        },
+        {
+          "load_margin": 0.5
+        },
+        {
+          "load_margin": 0.75
+        }
+      ],
+      "predictive": [
+        {
+          "age_weight": 0,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 0.5,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 1,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 2,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.25
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.02
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.1
+        },
+        {
+          "age_weight": 0.02,
+          "cost_weight": 4,
+          "guard_miss_fraction": 0.25
+        }
+      ],
+      "rssi": [
+        {
+          "rssi_margin_db": 0
+        },
+        {
+          "rssi_margin_db": 1
+        },
+        {
+          "rssi_margin_db": 3
+        },
+        {
+          "rssi_margin_db": 5
+        }
+      ]
+    },
+    "sensitivities": [
+      {
+        "name": "tight_deadlines",
+        "overrides": {
+          "video_deadline_seconds": 0.1,
+          "voice_deadline_seconds": 0.04
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "relaxed_deadlines",
+        "overrides": {
+          "video_deadline_seconds": 0.25,
+          "voice_deadline_seconds": 0.1
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "costly_transitions",
+        "overrides": {
+          "handoff_failure_extra_seconds": 0.25,
+          "handoff_failure_probability": 0.1,
+          "handoff_jitter_seconds": 0.08,
+          "handoff_mean_seconds": 0.18,
+          "scan_duration_seconds": 0.04
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "stale_reports",
+        "overrides": {
+          "report_delay_seconds": 1.5,
+          "report_jitter_seconds": 0.4,
+          "report_noise_std": 0.12,
+          "report_period_seconds": 1.0
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "cost_underestimate",
+        "overrides": {
+          "estimated_handoff_multiplier": 0.25
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "time_step_5ms",
+        "overrides": {
+          "dt_seconds": 0.005
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "time_step_20ms",
+        "overrides": {
+          "dt_seconds": 0.02
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      },
+      {
+        "name": "retain_handoff_queue",
+        "overrides": {
+          "flush_queue_on_handoff": false
+        },
+        "policies": [
+          "rssi",
+          "app_myopic",
+          "cautious_v1",
+          "predictive"
+        ],
+        "scenarios": [
+          "short_cells",
+          "hidden_hotspot",
+          "burst_load",
+          "crowded"
+        ]
+      }
+    ],
+    "sensitivity_seeds": [
+      50001,
+      50002,
+      50003,
+      50004,
+      50005,
+      50006,
+      50007,
+      50008,
+      50009,
+      50010
+    ],
+    "status": "Locally specified held-out protocol, with one documented development-informed grid extension before held-out evaluation",
+    "version": 2
+  },
+  "protocol_file": "/Users/mouhamad/Documents/Codex/2026-10-14/hi-x20/outputs/wifi-exploration/configs/packet-study.json",
+  "python": "3.14.5",
+  "source_hashes": {
+    "docs/packet-study-protocol.md": "4c98acbe4c034d14bb51b40f9f94fe04e697dbc4af8415191d5340c89cf7fcf2",
+    "protocol_content": "0e4fa2d9868f59ef65e4c4918854fd3c1941aef1e3fb0a2abd37c5b0bea341e0",
+    "scripts/run_packet_study.py": "4edbcdbfef362d4a7438d75a2be943ac373116ca97497c794933822cf7999074",
+    "src/packet_roaming.py": "f31be12c232fd98f3fc6b57e92bb07a3014a0925c1395813245d1a34526fd27f"
+  },
+  "stage": "tune",
+  "started_at_utc": "2026-10-14T21:49:54.734233+00:00",
+  "workers": 4
+}

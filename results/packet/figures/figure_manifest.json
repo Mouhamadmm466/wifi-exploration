@@ -1,0 +1,23 @@
+{
+  "plot_script_sha256": "70ef947ee06556f884c50ceb115193be74a0ea64cb291b7c43bd53954d613130",
+  "inputs_sha256": {
+    "policy_summary.csv": "988aba4ed0c4a07a2cdf2302fc0d582af55a4a7cfca504d02d686e9ac424bd5e",
+    "scenario_summary.csv": "1b9ec48cc648021de465bdf9cf9b729bc9e3aceb512acdda2a1cff84b4c9a7e0",
+    "paired_contrasts.csv": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+    "main_runs.csv": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf"
+  },
+  "outputs": [
+    "voice_video_deadline_misses.png",
+    "voice_video_deadline_misses.pdf",
+    "scenario_primary_difference.png",
+    "scenario_primary_difference.pdf",
+    "handoff_deadline_tradeoff.png",
+    "handoff_deadline_tradeoff.pdf",
+    "longest_voice_outage_cdf.png",
+    "longest_voice_outage_cdf.pdf"
+  ],
+  "primary_metric": "Equal-weight mean of voice packet and whole-video-frame deadline miss fractions",
+  "intervals": "Read from paired_contrasts.csv; per-scenario 95% paired bootstrap, unadjusted",
+  "selection": "All ten policies and all six scenarios retained; CDF uses four named main methods",
+  "interpretation": "Descriptive results and uncertainty within synthetic conditions; no hardware or QoE claim"
+}

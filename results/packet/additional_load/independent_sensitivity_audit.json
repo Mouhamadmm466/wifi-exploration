@@ -1,0 +1,96 @@
+{
+  "method": "Independent raw calculation, average four-scenario paired differences inside each of ten seeds;5,000 draws,seed81631.",
+  "supplement_raw_sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998",
+  "contrasts": [
+    {
+      "condition": "matched_main_reference",
+      "candidate_mean": 0.026936111111111112,
+      "load_aware_mean": 0.01710416666666667,
+      "difference": 0.009831944444444442,
+      "ci_low": 0.006961041666666672,
+      "ci_high": 0.012912916666666649,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "tight_deadlines",
+      "candidate_mean": 0.03852777777777778,
+      "load_aware_mean": 0.020865277777777778,
+      "difference": 0.017662499999999998,
+      "ci_low": 0.013491493055555552,
+      "ci_high": 0.02173486111111111,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "relaxed_deadlines",
+      "candidate_mean": 0.02170833333333333,
+      "load_aware_mean": 0.014300000000000004,
+      "difference": 0.0074083333333333275,
+      "ci_low": 0.004698576388888882,
+      "ci_high": 0.010615347222222222,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "costly_transitions",
+      "candidate_mean": 0.05225555555555556,
+      "load_aware_mean": 0.03682638888888889,
+      "difference": 0.015429166666666674,
+      "ci_low": 0.010723368055555578,
+      "ci_high": 0.020550104166666677,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "stale_reports",
+      "candidate_mean": 0.052029166666666675,
+      "load_aware_mean": 0.0295388888888889,
+      "difference": 0.022490277777777776,
+      "ci_low": 0.01466513888888889,
+      "ci_high": 0.029512638888888894,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "cost_underestimate",
+      "candidate_mean": 0.027183333333333334,
+      "load_aware_mean": 0.01710416666666667,
+      "difference": 0.010079166666666665,
+      "ci_low": 0.006844409722222236,
+      "ci_high": 0.013426631944444425,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "time_step_5ms",
+      "candidate_mean": 0.029699999999999997,
+      "load_aware_mean": 0.01745138888888889,
+      "difference": 0.012248611111111106,
+      "ci_low": 0.008590243055555554,
+      "ci_high": 0.01571670138888889,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "time_step_20ms",
+      "candidate_mean": 0.02334305555555555,
+      "load_aware_mean": 0.02091111111111111,
+      "difference": 0.0024319444444444423,
+      "ci_low": 9.437499999999845e-05,
+      "ci_high": 0.0047944444444444415,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    },
+    {
+      "condition": "retain_handoff_queue",
+      "candidate_mean": 0.02495555555555556,
+      "load_aware_mean": 0.013327777777777782,
+      "difference": 0.011627777777777777,
+      "ci_low": 0.00810138888888889,
+      "ci_high": 0.015410034722222223,
+      "seed_blocks": 10,
+      "paired_worlds": 40
+    }
+  ]
+}

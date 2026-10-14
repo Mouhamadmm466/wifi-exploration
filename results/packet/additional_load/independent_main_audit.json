@@ -1,0 +1,426 @@
+{
+  "raw_sha256": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf",
+  "rows": 2400,
+  "worlds": 240,
+  "summary": {
+    "app_myopic": {
+      "call_miss_fraction": 0.019426620370370372,
+      "voice_missed_fraction": 0.00941805555555556,
+      "video_missed_fraction": 0.029435185185185186,
+      "handoffs": 7.433333333333334,
+      "voice_longest_outage_seconds": 0.09683333333333334,
+      "video_longest_outage_seconds": 0.4820833333333333,
+      "video_freeze_fraction": 0.021849537037037035,
+      "background_delivery_fraction": 0.9622207716978355,
+      "background_worst_delivery_fraction": 0.9458311725011541
+    },
+    "cautious_v1": {
+      "call_miss_fraction": 0.022433333333333336,
+      "voice_missed_fraction": 0.010908333333333338,
+      "video_missed_fraction": 0.03395833333333333,
+      "handoffs": 8.420833333333333,
+      "voice_longest_outage_seconds": 0.10483333333333333,
+      "video_longest_outage_seconds": 0.5483333333333333,
+      "video_freeze_fraction": 0.025576388888888888,
+      "background_delivery_fraction": 0.9622324372973894,
+      "background_worst_delivery_fraction": 0.9458491545507803
+    },
+    "load_aware": {
+      "call_miss_fraction": 0.012820833333333342,
+      "voice_missed_fraction": 0.008412500000000003,
+      "video_missed_fraction": 0.017229166666666674,
+      "handoffs": 9.5125,
+      "voice_longest_outage_seconds": 0.08933333333333333,
+      "video_longest_outage_seconds": 0.31472222222222224,
+      "video_freeze_fraction": 0.011229166666666667,
+      "background_delivery_fraction": 0.9615330613600047,
+      "background_worst_delivery_fraction": 0.9447977335717854
+    },
+    "no_age": {
+      "call_miss_fraction": 0.020680324074074073,
+      "voice_missed_fraction": 0.010490277777777782,
+      "video_missed_fraction": 0.030870370370370367,
+      "handoffs": 8.741666666666667,
+      "voice_longest_outage_seconds": 0.10375,
+      "video_longest_outage_seconds": 0.4598611111111111,
+      "video_freeze_fraction": 0.022289351851851852,
+      "background_delivery_fraction": 0.9622319504015605,
+      "background_worst_delivery_fraction": 0.9458683964350769
+    },
+    "no_cost": {
+      "call_miss_fraction": 0.027597453703703707,
+      "voice_missed_fraction": 0.01449583333333334,
+      "video_missed_fraction": 0.04069907407407407,
+      "handoffs": 12.445833333333333,
+      "voice_longest_outage_seconds": 0.121,
+      "video_longest_outage_seconds": 0.5065277777777778,
+      "video_freeze_fraction": 0.02848611111111111,
+      "background_delivery_fraction": 0.962261807725912,
+      "background_worst_delivery_fraction": 0.9459201380302086
+    },
+    "no_dwell": {
+      "call_miss_fraction": 0.02059398148148148,
+      "voice_missed_fraction": 0.010412500000000002,
+      "video_missed_fraction": 0.03077546296296296,
+      "handoffs": 8.720833333333333,
+      "voice_longest_outage_seconds": 0.10241666666666667,
+      "video_longest_outage_seconds": 0.4563888888888889,
+      "video_freeze_fraction": 0.022219907407407407,
+      "background_delivery_fraction": 0.9622378158889545,
+      "background_worst_delivery_fraction": 0.9458649409819654
+    },
+    "no_guard": {
+      "call_miss_fraction": 0.02123101851851852,
+      "voice_missed_fraction": 0.009890277777777779,
+      "video_missed_fraction": 0.03257175925925926,
+      "handoffs": 6.966666666666667,
+      "voice_longest_outage_seconds": 0.09933333333333333,
+      "video_longest_outage_seconds": 0.5459722222222222,
+      "video_freeze_fraction": 0.025375,
+      "background_delivery_fraction": 0.9622152257044312,
+      "background_worst_delivery_fraction": 0.9458211798033194
+    },
+    "predictive": {
+      "call_miss_fraction": 0.02047060185185185,
+      "voice_missed_fraction": 0.010348611111111114,
+      "video_missed_fraction": 0.03059259259259259,
+      "handoffs": 8.629166666666666,
+      "voice_longest_outage_seconds": 0.10116666666666667,
+      "video_longest_outage_seconds": 0.45875,
+      "video_freeze_fraction": 0.022113425925925925,
+      "background_delivery_fraction": 0.9622317295611199,
+      "background_worst_delivery_fraction": 0.9458683964350769
+    },
+    "rssi": {
+      "call_miss_fraction": 0.0196800925925926,
+      "voice_missed_fraction": 0.010550000000000006,
+      "video_missed_fraction": 0.02881018518518519,
+      "handoffs": 9.229166666666666,
+      "voice_longest_outage_seconds": 0.08916666666666667,
+      "video_longest_outage_seconds": 0.5127777777777778,
+      "video_freeze_fraction": 0.02175,
+      "background_delivery_fraction": 0.9600654164784306,
+      "background_worst_delivery_fraction": 0.9427120145011249
+    },
+    "session_stay": {
+      "call_miss_fraction": 0.07206597222222222,
+      "voice_missed_fraction": 0.026069444444444447,
+      "video_missed_fraction": 0.1180625,
+      "handoffs": 5.2375,
+      "voice_longest_outage_seconds": 0.091,
+      "video_longest_outage_seconds": 2.660138888888889,
+      "video_freeze_fraction": 0.11299305555555555,
+      "background_delivery_fraction": 0.9597384477949515,
+      "background_worst_delivery_fraction": 0.9422707265450606
+    }
+  },
+  "contrasts": [
+    {
+      "comparator": "app_myopic",
+      "metric": "call_miss_fraction",
+      "difference": 0.0010439814814814778,
+      "ci_low": 0.0003844560185185144,
+      "ci_high": 0.0017320486111111015,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": -8.33333333332964e-06,
+        "crowded": 0.004033333333333328,
+        "hidden_hotspot": 0.0006041666666666626,
+        "reversals": -0.000234722222222232,
+        "short_cells": 9.444444444444561e-05,
+        "wide_corridor": 0.0017749999999999919
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "voice_missed_fraction",
+      "difference": 0.0009305555555555539,
+      "ci_low": 0.0005819444444444436,
+      "ci_high": 0.0013055902777777777,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0011916666666666714,
+        "crowded": 0.0030249999999999917,
+        "hidden_hotspot": 0.00037500000000000033,
+        "reversals": -6.66666666666732e-05,
+        "short_cells": 0.00021666666666667056,
+        "wide_corridor": 0.0008416666666666628
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "video_missed_fraction",
+      "difference": 0.0011574074074074032,
+      "ci_low": 0.00015972222222222082,
+      "ci_high": 0.0021992476851851813,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": -0.00120833333333335,
+        "crowded": 0.0050416666666666665,
+        "hidden_hotspot": 0.0008333333333333387,
+        "reversals": -0.00040277777777778244,
+        "short_cells": -2.7777777777784894e-05,
+        "wide_corridor": 0.002708333333333332
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "handoffs",
+      "difference": 1.1958333333333333,
+      "ci_low": 0.9333333333333333,
+      "ci_high": 1.475,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 2.05,
+        "crowded": 3.275,
+        "hidden_hotspot": 0.7,
+        "reversals": 0.1,
+        "short_cells": 0.4,
+        "wide_corridor": 0.65
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "voice_longest_outage_seconds",
+      "difference": 0.004333333333333334,
+      "ci_low": 8.998878031629694e-20,
+      "ci_high": 0.009166666666666667,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0215,
+        "crowded": 0.0145,
+        "hidden_hotspot": -0.0004999999999999999,
+        "reversals": -0.0004999999999999996,
+        "short_cells": -0.0035,
+        "wide_corridor": -0.0055
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "video_longest_outage_seconds",
+      "difference": -0.02333333333333333,
+      "ci_low": -0.041388888888888885,
+      "ci_high": -0.004444444444444442,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": -0.11916666666666666,
+        "crowded": -0.01749999999999999,
+        "hidden_hotspot": 3.469446951953614e-18,
+        "reversals": 0.0033333333333333366,
+        "short_cells": -0.008333333333333335,
+        "wide_corridor": 0.001666666666666664
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "video_freeze_fraction",
+      "difference": 0.00026388888888888897,
+      "ci_low": -0.0006597800925925922,
+      "ci_high": 0.0011782407407407406,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": -0.002416666666666667,
+        "crowded": 0.002402777777777779,
+        "hidden_hotspot": -2.7777777777777925e-05,
+        "reversals": 0.00013888888888888886,
+        "short_cells": -0.00040277777777777767,
+        "wide_corridor": 0.0018888888888888885
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "background_delivery_fraction",
+      "difference": 1.0957863284458598e-05,
+      "ci_low": 4.6568985583315265e-06,
+      "ci_high": 1.6989504947731112e-05,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0,
+        "crowded": 6.574717970675159e-05,
+        "hidden_hotspot": 0.0,
+        "reversals": 0.0,
+        "short_cells": 0.0,
+        "wide_corridor": 0.0
+      }
+    },
+    {
+      "comparator": "app_myopic",
+      "metric": "background_worst_delivery_fraction",
+      "difference": 3.722393392279616e-05,
+      "ci_low": 1.3777101781944417e-05,
+      "ci_high": 6.481871128186583e-05,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0,
+        "crowded": 0.00022334360353677696,
+        "hidden_hotspot": 0.0,
+        "reversals": 0.0,
+        "short_cells": 0.0,
+        "wide_corridor": 0.0
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "call_miss_fraction",
+      "difference": 0.007649768518518508,
+      "ci_low": 0.006680086805555549,
+      "ci_high": 0.008652337962962952,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.017612500000000003,
+        "crowded": 0.01748472222222222,
+        "hidden_hotspot": 0.005941666666666635,
+        "reversals": 0.002388888888888864,
+        "short_cells": -0.002019444444444439,
+        "wide_corridor": 0.004490277777777768
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "voice_missed_fraction",
+      "difference": 0.0019361111111111107,
+      "ci_low": 0.0013916666666666693,
+      "ci_high": 0.0024625347222222236,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.006641666666666676,
+        "crowded": 0.009649999999999992,
+        "hidden_hotspot": 0.0024666666666666643,
+        "reversals": -0.0009166666666666712,
+        "short_cells": -0.007483333333333333,
+        "wide_corridor": 0.0012583333333333363
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "video_missed_fraction",
+      "difference": 0.013363425925925917,
+      "ci_low": 0.011828703703703699,
+      "ci_high": 0.014983854166666652,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.02858333333333333,
+        "crowded": 0.025319444444444436,
+        "hidden_hotspot": 0.009416666666666665,
+        "reversals": 0.00569444444444441,
+        "short_cells": 0.003444444444444442,
+        "wide_corridor": 0.007722222222222219
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "handoffs",
+      "difference": -0.8833333333333333,
+      "ci_low": -1.2875,
+      "ci_high": -0.4875,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 1.35,
+        "crowded": 8.1,
+        "hidden_hotspot": 2.35,
+        "reversals": -3.25,
+        "short_cells": -13.9,
+        "wide_corridor": 0.05
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "voice_longest_outage_seconds",
+      "difference": 0.011833333333333335,
+      "ci_low": 0.001583333333333336,
+      "ci_high": 0.021750000000000002,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.027500000000000004,
+        "crowded": 0.031,
+        "hidden_hotspot": 0.0225,
+        "reversals": 0.0020000000000000035,
+        "short_cells": -0.0165,
+        "wide_corridor": 0.004500000000000002
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "video_longest_outage_seconds",
+      "difference": 0.14402777777777778,
+      "ci_low": 0.11347222222222222,
+      "ci_high": 0.1748611111111111,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.47583333333333333,
+        "crowded": -0.31833333333333336,
+        "hidden_hotspot": 0.14166666666666666,
+        "reversals": 0.17666666666666667,
+        "short_cells": 0.23666666666666666,
+        "wide_corridor": 0.15166666666666667
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "video_freeze_fraction",
+      "difference": 0.010884259259259258,
+      "ci_low": 0.009474479166666666,
+      "ci_high": 0.012363483796296296,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.02727777777777778,
+        "crowded": 0.018541666666666665,
+        "hidden_hotspot": 0.003375,
+        "reversals": 0.004222222222222222,
+        "short_cells": 0.006638888888888889,
+        "wide_corridor": 0.00525
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "background_delivery_fraction",
+      "difference": 0.000698668201115193,
+      "ci_low": 0.0006707573424324141,
+      "ci_high": 0.0007293032241507288,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0,
+        "crowded": 0.0012433181367936309,
+        "hidden_hotspot": 0.0029486910698975272,
+        "reversals": 0.0,
+        "short_cells": 0.0,
+        "wide_corridor": 0.0
+      }
+    },
+    {
+      "comparator": "load_aware",
+      "metric": "background_worst_delivery_fraction",
+      "difference": 0.0010706628632914873,
+      "ci_low": 0.0009623621927351082,
+      "ci_high": 0.0011782935797634727,
+      "seed_blocks": 40,
+      "paired_worlds": 240,
+      "scenario_differences": {
+        "burst_load": 0.0,
+        "crowded": 0.0027510566247053946,
+        "hidden_hotspot": 0.0036729205550435295,
+        "reversals": 0.0,
+        "short_cells": 0.0,
+        "wide_corridor": 0.0
+      }
+    }
+  ],
+  "method": "Independent raw-table calculation; equal six-scenario difference within each of40 seeds;5000 percentile bootstrap draws using seed81631."
+}

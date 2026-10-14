@@ -1,0 +1,9 @@
+{
+  "tests_passed": 29,
+  "packet_model_tests": 15,
+  "paired_analysis_tests": 4,
+  "earlier_model_tests": 10,
+  "status": "passed before development selection and held-out evaluation",
+  "tested_source_sha256": "f31be12c232fd98f3fc6b57e92bb07a3014a0925c1395813245d1a34526fd27f",
+  "limitations": "Verification of declared abstraction only; no hardware or external simulator calibration."
+}

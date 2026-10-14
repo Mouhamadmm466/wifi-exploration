@@ -1,0 +1,541 @@
+{
+  "development_seeds": [
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008
+  ],
+  "frozen_at_utc": "2026-10-14T21:52:03.437930+00:00",
+  "scores": [
+    {
+      "mean_handoffs": 5.833333333333333,
+      "mean_miss_fraction": 0.00900925925925927,
+      "params": {
+        "rssi_margin_db": 0
+      },
+      "policy": "rssi",
+      "runs": 24,
+      "variant": "rssi_0"
+    },
+    {
+      "mean_handoffs": 4.75,
+      "mean_miss_fraction": 0.007259259259259257,
+      "params": {
+        "rssi_margin_db": 1
+      },
+      "policy": "rssi",
+      "runs": 24,
+      "variant": "rssi_1"
+    },
+    {
+      "mean_handoffs": 3.7916666666666665,
+      "mean_miss_fraction": 0.0077592592592592435,
+      "params": {
+        "rssi_margin_db": 3
+      },
+      "policy": "rssi",
+      "runs": 24,
+      "variant": "rssi_2"
+    },
+    {
+      "mean_handoffs": 3.9166666666666665,
+      "mean_miss_fraction": 0.013275462962962947,
+      "params": {
+        "rssi_margin_db": 5
+      },
+      "policy": "rssi",
+      "runs": 24,
+      "variant": "rssi_3"
+    },
+    {
+      "mean_handoffs": 5.791666666666667,
+      "mean_miss_fraction": 0.0036180555555555527,
+      "params": {
+        "load_margin": 0.05
+      },
+      "policy": "load_aware",
+      "runs": 24,
+      "variant": "load_aware_0"
+    },
+    {
+      "mean_handoffs": 4.416666666666667,
+      "mean_miss_fraction": 0.0028379629629629657,
+      "params": {
+        "load_margin": 0.15
+      },
+      "policy": "load_aware",
+      "runs": 24,
+      "variant": "load_aware_1"
+    },
+    {
+      "mean_handoffs": 3.9583333333333335,
+      "mean_miss_fraction": 0.0026041666666666526,
+      "params": {
+        "load_margin": 0.3
+      },
+      "policy": "load_aware",
+      "runs": 24,
+      "variant": "load_aware_2"
+    },
+    {
+      "mean_handoffs": 3.875,
+      "mean_miss_fraction": 0.002469907407407395,
+      "params": {
+        "load_margin": 0.5
+      },
+      "policy": "load_aware",
+      "runs": 24,
+      "variant": "load_aware_3"
+    },
+    {
+      "mean_handoffs": 3.7083333333333335,
+      "mean_miss_fraction": 0.0022708333333333144,
+      "params": {
+        "load_margin": 0.75
+      },
+      "policy": "load_aware",
+      "runs": 24,
+      "variant": "load_aware_4"
+    },
+    {
+      "mean_handoffs": 13.958333333333334,
+      "mean_miss_fraction": 0.025451388888888905,
+      "params": {
+        "app_margin": 0
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_0"
+    },
+    {
+      "mean_handoffs": 6.125,
+      "mean_miss_fraction": 0.01595601851851852,
+      "params": {
+        "app_margin": 0.03
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_1"
+    },
+    {
+      "mean_handoffs": 3,
+      "mean_miss_fraction": 0.006576388888888879,
+      "params": {
+        "app_margin": 0.08
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_2"
+    },
+    {
+      "mean_handoffs": 2.7916666666666665,
+      "mean_miss_fraction": 0.006453703703703698,
+      "params": {
+        "app_margin": 0.15
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_3"
+    },
+    {
+      "mean_handoffs": 2.7916666666666665,
+      "mean_miss_fraction": 0.006460648148148142,
+      "params": {
+        "app_margin": 0.25
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_4"
+    },
+    {
+      "mean_handoffs": 2.7083333333333335,
+      "mean_miss_fraction": 0.0067083333333333274,
+      "params": {
+        "app_margin": 0.4
+      },
+      "policy": "app_myopic",
+      "runs": 24,
+      "variant": "app_myopic_5"
+    },
+    {
+      "mean_handoffs": 1.9583333333333333,
+      "mean_miss_fraction": 0.01233564814814813,
+      "params": {
+        "planning_horizon_seconds": 1
+      },
+      "policy": "cautious_v1",
+      "runs": 24,
+      "variant": "cautious_v1_0"
+    },
+    {
+      "mean_handoffs": 1.9583333333333333,
+      "mean_miss_fraction": 0.00884722222222221,
+      "params": {
+        "planning_horizon_seconds": 3
+      },
+      "policy": "cautious_v1",
+      "runs": 24,
+      "variant": "cautious_v1_1"
+    },
+    {
+      "mean_handoffs": 2.125,
+      "mean_miss_fraction": 0.007527777777777763,
+      "params": {
+        "planning_horizon_seconds": 8
+      },
+      "policy": "cautious_v1",
+      "runs": 24,
+      "variant": "cautious_v1_2"
+    },
+    {
+      "mean_handoffs": 2.1666666666666665,
+      "mean_miss_fraction": 0.007324074074074057,
+      "params": {
+        "planning_horizon_seconds": 16
+      },
+      "policy": "cautious_v1",
+      "runs": 24,
+      "variant": "cautious_v1_3"
+    },
+    {
+      "mean_handoffs": 8.916666666666666,
+      "mean_miss_fraction": 0.01747453703703703,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_0"
+    },
+    {
+      "mean_handoffs": 5.333333333333333,
+      "mean_miss_fraction": 0.012877314814814802,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_1"
+    },
+    {
+      "mean_handoffs": 3.9583333333333335,
+      "mean_miss_fraction": 0.009118055555555544,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_2"
+    },
+    {
+      "mean_handoffs": 8.833333333333334,
+      "mean_miss_fraction": 0.01658564814814814,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_3"
+    },
+    {
+      "mean_handoffs": 5.083333333333333,
+      "mean_miss_fraction": 0.01134027777777777,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_4"
+    },
+    {
+      "mean_handoffs": 3.6666666666666665,
+      "mean_miss_fraction": 0.007787037037037027,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 0.5,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_5"
+    },
+    {
+      "mean_handoffs": 8.875,
+      "mean_miss_fraction": 0.01674305555555555,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_6"
+    },
+    {
+      "mean_handoffs": 5,
+      "mean_miss_fraction": 0.011460648148148138,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_7"
+    },
+    {
+      "mean_handoffs": 3.7083333333333335,
+      "mean_miss_fraction": 0.008194444444444433,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_8"
+    },
+    {
+      "mean_handoffs": 8.541666666666666,
+      "mean_miss_fraction": 0.0160787037037037,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_9"
+    },
+    {
+      "mean_handoffs": 4.958333333333333,
+      "mean_miss_fraction": 0.011201388888888884,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_10"
+    },
+    {
+      "mean_handoffs": 3.375,
+      "mean_miss_fraction": 0.007374999999999995,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 1,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_11"
+    },
+    {
+      "mean_handoffs": 8.5,
+      "mean_miss_fraction": 0.015935185185185177,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_12"
+    },
+    {
+      "mean_handoffs": 4.916666666666667,
+      "mean_miss_fraction": 0.011083333333333322,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_13"
+    },
+    {
+      "mean_handoffs": 3.3333333333333335,
+      "mean_miss_fraction": 0.0072615740740740705,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_14"
+    },
+    {
+      "mean_handoffs": 8.5,
+      "mean_miss_fraction": 0.015935185185185177,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_15"
+    },
+    {
+      "mean_handoffs": 4.916666666666667,
+      "mean_miss_fraction": 0.011083333333333322,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_16"
+    },
+    {
+      "mean_handoffs": 3.1666666666666665,
+      "mean_miss_fraction": 0.007134259259259257,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 2,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_17"
+    },
+    {
+      "mean_handoffs": 8.5,
+      "mean_miss_fraction": 0.015932870370370365,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_18"
+    },
+    {
+      "mean_handoffs": 4.916666666666667,
+      "mean_miss_fraction": 0.01108101851851851,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_19"
+    },
+    {
+      "mean_handoffs": 3.1666666666666665,
+      "mean_miss_fraction": 0.007240740740740739,
+      "params": {
+        "age_weight": 0,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_20"
+    },
+    {
+      "mean_handoffs": 8.5,
+      "mean_miss_fraction": 0.015932870370370365,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.02
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_21"
+    },
+    {
+      "mean_handoffs": 4.916666666666667,
+      "mean_miss_fraction": 0.01108101851851851,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.1
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_22"
+    },
+    {
+      "mean_handoffs": 3.1666666666666665,
+      "mean_miss_fraction": 0.007240740740740739,
+      "params": {
+        "age_weight": 0.02,
+        "cost_weight": 4,
+        "guard_miss_fraction": 0.25
+      },
+      "policy": "predictive",
+      "runs": 24,
+      "variant": "predictive_23"
+    }
+  ],
+  "selected": {
+    "app_myopic": {
+      "app_margin": 0.15
+    },
+    "cautious_v1": {
+      "planning_horizon_seconds": 16
+    },
+    "load_aware": {
+      "load_margin": 0.75
+    },
+    "no_age": {
+      "age_weight": 0.02,
+      "cost_weight": 2,
+      "guard_miss_fraction": 0.25
+    },
+    "no_cost": {
+      "age_weight": 0.02,
+      "cost_weight": 2,
+      "guard_miss_fraction": 0.25
+    },
+    "no_dwell": {
+      "age_weight": 0.02,
+      "cost_weight": 2,
+      "guard_miss_fraction": 0.25
+    },
+    "no_guard": {
+      "age_weight": 0.02,
+      "cost_weight": 2,
+      "guard_miss_fraction": 0.25
+    },
+    "predictive": {
+      "age_weight": 0.02,
+      "cost_weight": 2,
+      "guard_miss_fraction": 0.25
+    },
+    "rssi": {
+      "rssi_margin_db": 1
+    },
+    "session_stay": {}
+  },
+  "selection": "lowest equal-cell equal-voice/video deadline miss; ties fewer handoffs then variant ID",
+  "source_hashes": {
+    "docs/packet-study-protocol.md": "4c98acbe4c034d14bb51b40f9f94fe04e697dbc4af8415191d5340c89cf7fcf2",
+    "protocol_content": "0e4fa2d9868f59ef65e4c4918854fd3c1941aef1e3fb0a2abd37c5b0bea341e0",
+    "scripts/run_packet_study.py": "4edbcdbfef362d4a7438d75a2be943ac373116ca97497c794933822cf7999074",
+    "src/packet_roaming.py": "f31be12c232fd98f3fc6b57e92bb07a3014a0925c1395813245d1a34526fd27f"
+  },
+  "warning": "Locally frozen before evaluation, not an externally preregistered study."
+}

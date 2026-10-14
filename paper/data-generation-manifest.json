@@ -1,0 +1,25 @@
+{
+  "inputs_sha256": {
+    "references/bibliography.bib": "589aac97a33c7ef8a259b6d0f247d3166263bb44127b2ab839ab3c5e01cf825a",
+    "references/packet-bibliography.bib": "676a3e1d5e7639044955cf1fe5deef7ab65b5bf859cbb75afee45fe0cfef5b99",
+    "results/packet/additional_load/supplementary_contrasts.csv": "11a5a71967bc18e86d5285cb759ee16bea8b628197edecae8708ceb72268657f",
+    "results/packet/main_runs.csv": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf",
+    "results/packet/paired_contrasts.csv": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+    "results/packet/policy_summary.csv": "988aba4ed0c4a07a2cdf2302fc0d582af55a4a7cfca504d02d686e9ac424bd5e",
+    "results/packet/selected_traces.json.gz": "5c615826a20b0e5633a3ca784653c8651c7f8e4774a757f44477ed8cc61fd084",
+    "results/packet/sensitivity_overview.csv": "4b8e5a9fa5370e4fd0611093a355f85170f364d206a2c62979303357d7807988"
+  },
+  "generator_sha256": "9599b306db898444b378e17eff1a0d5acd65151dadb3f2ab3aaa9ad3765400e6",
+  "generated_regions": [
+    "MAIN_TABLE",
+    "BARS",
+    "SCENARIO",
+    "CDF",
+    "TIMELINE",
+    "ABLATION",
+    "SENSITIVITY",
+    "TRADEOFF",
+    "BIBLIOGRAPHY"
+  ],
+  "note": "Only marked regions are generated. Prose is reviewed separately. No data files are loaded by LaTeX; the source is standalone."
+}

@@ -1,0 +1,15 @@
+# Independent numerical review of the sensitivity supplement
+
+All **320 supplementary runs** completed. The eight combined sensitivity tables each contain **200 rows, five policies, 40 worlds and ten seed blocks**. The matched main reference uses the same four scenarios and ten seeds. All supplementary input/world hashes and offered-traffic counts matched their original comparison rows. Original sensitivity tables and analysis directories were preserved.
+
+Independent calculations from the raw rows reproduced the nine overall candidate-minus-load score estimates and their confidence limits within 0.000000000001. The nine cases are the matched reference plus all eight sensitivity conditions. The checked values are saved in [independent_sensitivity_audit.json](independent_sensitivity_audit.json); the complete table is in [overview.md](overview.md).
+
+The candidate's mean deadline-miss score is higher than load-aware in every tested condition. The largest difference is with stale reports: **+2.2490 percentage points**, compared with **+0.9832 points** in the matched reference. Every pointwise 95% interval is above zero, but these are secondary, unadjusted comparisons with only ten seed blocks. They are not eight independent confirmations of a general result.
+
+The numerical time step matters substantially. The candidate-minus-load difference is **+1.2249 points at 5 ms**, **+0.9832 at 10 ms**, and **+0.2432 at 20 ms**. The coarse-step interval is only **+0.0094 to +0.4794 points**. The ordering persists, but the effect size is not stable across the tested resolutions. Do not claim numerical convergence or calibrated packet timing. Event rounding and within-slot service assumptions remain relevant.
+
+Keeping queues during handoff does not reverse the aggregate ordering: the difference remains **+1.1628 points**. Thus the default queue-flush assumption is not the sole explanation for the candidate's disadvantage in these tested environments. This does not prove that the chosen queue-retention model matches a real client.
+
+The application components and trade-offs still matter. Video-frame misses are higher for the candidate in all eight conditions. Its voice miss difference is small and uncertain at 20 ms; in the other conditions its pointwise interval is above zero. Background delivery is approximately **0.095–0.125 percentage points higher** for the candidate across the conditions. The candidate does not always make fewer handoff attempts, and the coarse-step video-run maximum comparison is uncertain. The [full supplementary contrast table](supplementary_contrasts.csv) preserves these outcomes.
+
+These results support the load-aware rule within this particular model and reveal a failed candidate design. They do not establish a universal winner. The shared assumed RSSI-to-rate curve, synthetic traffic, single moving client, fluid service slots and unvalidated telemetry remain important limits. No capacity-calibration error, physical radio trace or human QoE was tested.

@@ -1,51 +1,61 @@
 # Application-Aware Handoffs in Dense Wireless Networks
 
-**Exploratory research package — 14 October 2026.** This repository contains a literature review, a precise research question, reproducible simulation code, results, and a plan for the next research stage. It is preparation for a paper, not a finished manuscript.
+**Completed version 2 simulation study — 14 October 2026.** This repository contains a targeted literature review, an explicit packet-and-queue model, reproducible experiments, all results, and research documentation. The complete 15-page manuscript, with six figures and five tables, is available at [paper/wifi-roaming-paper.tex](paper/wifi-roaming-paper.tex) and [paper/wifi-roaming-paper.pdf](paper/wifi-roaming-paper.pdf).
 
-The central finding is that **fewer handoffs do not necessarily mean better service**. In our synthetic model, the candidate that adds switching-cost and old-report penalties improves on signal-only roaming but slightly worsens the main service score compared with a simpler application-aware rule. The negative result is retained and explained.
+The proposed rule **did not beat the simpler application-margin rule on the main outcome**. Its mean deadline-miss score was **2.0471%**, compared with **1.9427%** for the application-margin rule. It also attempted more handoffs. The capacity/load rule had the lowest overall score, **1.2821%**, but was worse than other rules in the burst-load and short-cell scenarios. We keep these unfavorable results and explain their limits.
 
 ## Start here
 
-1. [Research overview and main conclusions](docs/overview.md)
-2. [Research question and hypotheses](docs/research-question.md)
-3. [Recent literature](docs/literature/recent-review.md), [older foundations](docs/literature/foundations.md), and [mechanisms and tools](docs/literature/mechanisms-and-evidence.md)
-4. [Exact simulation model](docs/simulation-model.md) and [experimental design](docs/experiment-design.md)
-5. [Main results](docs/results.md) and [service-estimation error test](docs/model-mismatch.md)
-6. [Research decisions](docs/research-process.md), [independent review](docs/independent-review.md), and [next research steps](docs/next-steps.md)
+1. [Results in simple English, with all five figures](docs/packet-results.md)
+2. [What the packet model represents](docs/packet-model.md)
+3. [Study protocol and the documented development amendment](docs/packet-study-protocol.md)
+4. [Reproduction instructions and evidence checks](docs/packet-reproduction.md)
+5. [Research decisions](docs/full-study-decisions.md) and [independent model review](docs/packet-independent-review.md)
+6. [Independent numerical review](results/packet/additional_load/main-numerical-review.md) and [the capacity/load sensitivity supplement](results/packet/additional_load/overview.md)
 
-The [source index](references/source-index.md) covers **28 distinct sources: 21 research works and 7 technical documents**. Fourteen research works received selected full-text inspection; seven were reviewed at abstract or excerpt level. Sixteen research works are from 2023–2026. The review is targeted, not exhaustive. Checked records and a [BibTeX bibliography](references/bibliography.bib) are included.
+The main outcome gives equal weight to missed voice-packet deadlines and missed whole-video-frame deadlines. It is an engineering score, **not a measurement of human call quality**. The simulation uses assumed traffic, radio-service curves, reporting errors and handoff delays. It is not a complete IEEE 802.11 implementation, an ns-3 experiment, or a hardware testbed.
 
-New to the terms? Read the [short glossary](docs/glossary.md).
+![Voice and video deadline misses for every tested policy](results/packet/figures/voice_video_deadline_misses.png)
 
-## What was actually run
+Every main policy is shown. Lower bars mean fewer missed deadlines in this model. [The full results guide](docs/packet-results.md) explains the scenario differences, handoff trade-offs, long missed-deadline runs, and the preselected example timeline.
 
-- Main evaluation: **17,280 policy runs**, covering 72 settings × 40 seeds × 6 policies.
-- The main grid reuses **240 underlying world traces**. The policy runs are not 17,280 independent real-world experiments.
-- A pilot-tuned fixed-margin application baseline adds **2,880 evaluation runs**.
-- A service-model mismatch diagnostic adds **5,760 runs**.
-- Pilot tuning, a horizon sensitivity check, raw seed results, uncertainty intervals, and run manifests are saved too.
+## What was run
 
-This is a **decision-level simulation** using assumed signal, load, delay, and loss equations. It is not an IEEE 802.11 protocol simulator, an ns-3 experiment, a physical testbed, or a measurement of video quality. It makes no claim of a new algorithm or improved real-device performance.
+| Part of version 2 | Policy runs | What the count means |
+|---|---:|---|
+| Two development rounds | 1,488 | Parameter selection on the same 24 development worlds; some settings were repeated |
+| Main held-out comparison | 2,400 | 6 scenarios × 40 seeds × 10 policies; 240 paired worlds |
+| Eight planned sensitivity conditions | 1,280 | 4 scenarios × 10 seeds × 4 policies per condition |
+| Separate capacity/load supplement | 320 | The frozen capacity/load rule in the same eight conditions |
 
-![Candidate versus simpler application-aware rule across all settings](results/figures/all_conditions.png)
+This is **5,488 executed policy runs**, plus 18 diagnostic trace replays. Reused table rows and the matched reference subset are not extra simulation runs. These are not thousands of independent physical networks.
 
-Negative values favor the candidate; positive values favor the simpler rule. Values are percentage-point differences on an artificial service-deficit scale. [Full paired results and intervals](results/paired_comparisons.csv).
+All policies face matched external inputs within a scenario and seed. Parameters were selected on separate development seeds and frozen before the main evaluation. One search-grid extension followed the initial development results; its original records and unequal tuning budgets remain visible in [the protocol](docs/packet-study-protocol.md).
 
-## Reproduce
+## Literature and research scope
 
-Python 3.10 or later is expected; the recorded run used Python 3.14.5. Simulation and analysis use the standard library. From the repository root:
+The combined record contains **34 distinct sources: 21 research works and 13 technical documents**, not 34 research papers. Start with the [source index](references/source-index.md), [packet and writing sources](references/packet-sources.json), [recent literature review](docs/literature/recent-review.md), [older foundations](docs/literature/foundations.md), and [roaming mechanisms](docs/literature/mechanisms-and-evidence.md).
+
+Fourteen research works received selected full-text inspection; seven were read at abstract or excerpt level. This is a targeted review, not an exhaustive search. The closest 2026 application-aware works still need full-method comparison. No external paper has been independently replicated, and this project makes no first-ever algorithm claim. [The glossary](docs/glossary.md) explains common terms.
+
+## Reproduce or inspect the evidence
+
+The simulator and analysis use Python's standard library. Python 3.10 or newer is required; the recorded run used Python 3.14.5. Figure export also needs Matplotlib and NumPy. Use a fresh repository copy for a new run, because the main runner writes generated result files.
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 scripts/run_study.py --output work/reproduction
-python3 scripts/run_static_margin.py --main-results work/reproduction --output work/static-reproduction
-python3 scripts/run_model_mismatch.py --main-results work/reproduction --output work/mismatch-reproduction
+python3 scripts/run_packet_study.py --stage all --workers 4
+python3 scripts/analyze_all_packet_results.py
 ```
 
-The study chooses parameters on pilot seeds and evaluates on different seeds. Repeated runs should reproduce the numerical results in the recorded environment; timestamps and runtime will change. Use a new output directory to preserve the delivered evidence. See [reproduction details](docs/reproduction.md) for verification and figures.
+These commands repeat the final development grid, main evaluation and original eight sensitivity conditions. [The full reproduction guide](docs/packet-reproduction.md) covers the separate capacity/load supplement, archived first development round, diagnostic replays, figure export, and artifact validation.
 
-## What remains before stronger paper claims
+Read the [raw main results](results/packet/main_runs.csv), [policy summary](results/packet/policy_summary.csv), [scenario summary](results/packet/scenario_summary.csv), [paired comparisons](results/packet/paired_contrasts.csv), and [analysis manifest](results/packet/analysis_manifest.json) without rerunning the simulation. Code keys and figure names are mapped in [the results guide](docs/packet-results.md).
 
-The nearest 2026 application-aware papers need full-method comparison. The service model needs calibration or a stronger application model. Candidate measurement errors, realistic scanning, interacting clients, and different environments need additional experiments. [The research plan](docs/next-steps.md) explains these steps and how to decide which are necessary for the intended paper.
+## Earlier study and next steps
 
-No external paper has been independently replicated here. No hardware experiment has been performed. Code and documentation were prepared with AI assistance and reviewed with automated checks and an independent agent review. Research authors should verify the final claims and follow the chosen venue's disclosure policy.
+Version 1 is preserved as a historical decision-level experiment. Its service-deficit score differs from version 2's packet/frame deadline score, so their numerical values are not directly comparable. Read the [version 1 results](docs/results.md), [original model](docs/simulation-model.md), and [original reproduction guide](docs/reproduction.md).
+
+The next stronger test needs measured rate and telemetry errors, a network-stack implementation or physical validation, and fuller comparison with the closest literature. The [future hardware protocol](docs/hardware-validation.md) describes one path. No physical experiment has been performed.
+
+Code, analysis, figures and writing were prepared with AI assistance, with automated checks and independent agent review. These checks are not external peer review. Research authors should verify the final manuscript and follow the selected venue's disclosure policy; [the writing guide](docs/paper-writing-guide.md) records the relevant sources.

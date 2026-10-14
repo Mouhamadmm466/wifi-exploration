@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 .venv/
 work/
+
+paper/*.log
+paper/*.aux
+paper/*.out

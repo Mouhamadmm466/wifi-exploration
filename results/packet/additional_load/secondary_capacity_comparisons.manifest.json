@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-10-14T22:01:47.695267+00:00",
+  "script_sha256": "1ac2f5975f50142543d857075cb152c749f7f337abd37c685581a93ca9e0bca2",
+  "input_sha256": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf",
+  "output_sha256": "68743c4fb1c26e317f773c3f7669a8b0063fd9b522c16cb97be29e305def3401",
+  "source_rows": 2400,
+  "paired_worlds": 240,
+  "contrast_rows": 70,
+  "bootstrap_seed": 81631,
+  "bootstrap_repetitions": 5000,
+  "sign": "load_aware minus comparator; negative favors load_aware for miss fractions",
+  "designation": "secondary descriptive comparisons; primary study contrast is unchanged",
+  "pooling": "equal scenario weight within seed, then equal seed weight; all scenarios travel together in overall resampling"
+}

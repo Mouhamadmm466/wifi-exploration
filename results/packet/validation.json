@@ -1,0 +1,397 @@
+{
+  "analyses": [
+    "results/packet",
+    "results/packet/analysis_tight_deadlines",
+    "results/packet/analysis_relaxed_deadlines",
+    "results/packet/analysis_costly_transitions",
+    "results/packet/analysis_stale_reports",
+    "results/packet/analysis_cost_underestimate",
+    "results/packet/analysis_time_step_5ms",
+    "results/packet/analysis_time_step_20ms",
+    "results/packet/analysis_retain_handoff_queue",
+    "results/packet/analysis_reference_subset"
+  ],
+  "analysis_artifact_hashes": {
+    "results/packet/additional_load/analysis_cost_underestimate/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_cost_underestimate/paired_contrasts.csv": "fd65741adba9e5013dd5f28ce3e7ddb4c4031d582b9828383cd624ebe43f75c4",
+    "results/packet/additional_load/analysis_cost_underestimate/policy_summary.csv": "acbadb7905a4481142abdd20501eda451c43d743bd3cff5ecf053122f0eff458",
+    "results/packet/additional_load/analysis_cost_underestimate/scenario_summary.csv": "f4c954469025050d57486520f60d240358c3b9986d9f2c867cc468a3dfe7d4f1",
+    "results/packet/additional_load/analysis_costly_transitions/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_costly_transitions/paired_contrasts.csv": "b8b819edfd1b92b17fe40e4ff4294354e136d8cc823f8639430dfb5a0245b21c",
+    "results/packet/additional_load/analysis_costly_transitions/policy_summary.csv": "509414d032630e0f36b0e6629cc386700c25b71e9675bb8d35104513f4ae4855",
+    "results/packet/additional_load/analysis_costly_transitions/scenario_summary.csv": "84ede89c3b36e500a28368d34147159f62de4d3bdcdc54d7a2bd5e24af528de6",
+    "results/packet/additional_load/analysis_relaxed_deadlines/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_relaxed_deadlines/paired_contrasts.csv": "c0d6ae6544e39b683c1c54e3f61129bbd47dbd0c00e9aed18e480efacfb9ec36",
+    "results/packet/additional_load/analysis_relaxed_deadlines/policy_summary.csv": "14e83681699bc73300a686629978cd1cb53a2a7fdaf8e0f93dfabe8266ae66a8",
+    "results/packet/additional_load/analysis_relaxed_deadlines/scenario_summary.csv": "0509b2b38f381ce14262889c16fd4b9aec0c668cdd2b0b0142384c0b72c5e75d",
+    "results/packet/additional_load/analysis_retain_handoff_queue/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_retain_handoff_queue/paired_contrasts.csv": "6890fcf8c1f0989300d164d0b7e51e08eface265116ab38d1cbfed8c60448002",
+    "results/packet/additional_load/analysis_retain_handoff_queue/policy_summary.csv": "58af64dc310878d0108bed988301255426c3ffb9908eff0a90ca90c09c0eeb39",
+    "results/packet/additional_load/analysis_retain_handoff_queue/scenario_summary.csv": "30d7970f31ae9fffdf5f9b10857fb9b6058bc59fe0f9b18e841daa20689a79aa",
+    "results/packet/additional_load/analysis_stale_reports/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_stale_reports/paired_contrasts.csv": "ab53f6ecf4fee540ca3d65a6be23d9188011e23cf1f998abad2d690b86ba3a67",
+    "results/packet/additional_load/analysis_stale_reports/policy_summary.csv": "eaba671b489e70bfb837d0f04639c4fb7197f2400ee2e0fdc337e6d812b5f3c0",
+    "results/packet/additional_load/analysis_stale_reports/scenario_summary.csv": "925e51da91aeca134fed6fc89817837f04c749bb40ad8968ea9a9c6999a29c4e",
+    "results/packet/additional_load/analysis_tight_deadlines/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_tight_deadlines/paired_contrasts.csv": "7adcb19d7a51e13caa41cb4cb69c439429fc1e7de9047ab7b8fde17a271a33c7",
+    "results/packet/additional_load/analysis_tight_deadlines/policy_summary.csv": "69a7d710717b19f29863aa8b39f8e84802b14da0557f0b8366e7368114d6baad",
+    "results/packet/additional_load/analysis_tight_deadlines/scenario_summary.csv": "b9bfea62c69e8b8deb79dce8788e9c312c8c9e0d32398297212af8dc6ab1a758",
+    "results/packet/additional_load/analysis_time_step_20ms/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_time_step_20ms/paired_contrasts.csv": "9f2956a2ed234642572b582b26c6e9c4df93565171ab90d4f1055ab02f3751cf",
+    "results/packet/additional_load/analysis_time_step_20ms/policy_summary.csv": "361127a15263378d335384cc46e9fa2af38692f7c09941979315da0bfddd5758",
+    "results/packet/additional_load/analysis_time_step_20ms/scenario_summary.csv": "60374aa61d9c01b49fa8e4d40a6a8b79489f4fa6be64675aec0299e37c7843fe",
+    "results/packet/additional_load/analysis_time_step_5ms/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/analysis_time_step_5ms/paired_contrasts.csv": "360a5052e64f50c462a15a7553fce7e970a483562c11f521602e80f54b269a40",
+    "results/packet/additional_load/analysis_time_step_5ms/policy_summary.csv": "46814e51b43a7943ed56f2403bbe7f45c0e217707dcf78493c7b90507a50cb04",
+    "results/packet/additional_load/analysis_time_step_5ms/scenario_summary.csv": "5303cbbcdf2f81904a6b652c69fe491d5fa46e88db07fb29210169b8adddfbe1",
+    "results/packet/additional_load/reference_analysis/analysis_manifest.json": "0be8c5e483be87fd692384fc548d25b53d5227f9e70ae81bb38d01d82854b793",
+    "results/packet/additional_load/reference_analysis/paired_contrasts.csv": "b029816b3f33be1ac49ff5e6aa50f5ffbaee2853640b2377b1bf421f0b7e3770",
+    "results/packet/additional_load/reference_analysis/policy_summary.csv": "c46aa1ff1812c6049d4e6fece8cebbe1206153287fb8204c10fb6b5341ba09bc",
+    "results/packet/additional_load/reference_analysis/scenario_summary.csv": "5d2871e38ae59dd82660c2d81bfe1fd84955635c03ccd97db2a25a624c218d93",
+    "results/packet/analysis_cost_underestimate/analysis_manifest.json": "afbb5e84e9c2d4ba058d69c93c16931bd50d904cd12f9a6e6cdb4b830188fa08",
+    "results/packet/analysis_cost_underestimate/paired_contrasts.csv": "84174b5317ae6616d6f69290140361d7f82941d0572b3daf1044f1a72912e165",
+    "results/packet/analysis_cost_underestimate/policy_summary.csv": "b1917df65b8f8f363ddb93d86c47374b34d933185dc7319b559b320e62249f47",
+    "results/packet/analysis_cost_underestimate/scenario_summary.csv": "838c7599fe7a027145f61401032b984f633513234a8ab928da1434536e3bbeab",
+    "results/packet/analysis_costly_transitions/analysis_manifest.json": "77fce8365df03e9bedb9764e1953bb7736de54a921041109fd2660c2f1f21696",
+    "results/packet/analysis_costly_transitions/paired_contrasts.csv": "464aa3afd16f28e3fc3ff6fb541a7aaa6556862c8c285357758e05751c5cfd35",
+    "results/packet/analysis_costly_transitions/policy_summary.csv": "3035d680bf380642cc04dd7affeb12d9d821088919c520a5469ffc112815da5c",
+    "results/packet/analysis_costly_transitions/scenario_summary.csv": "9d94de2d3761dc8c6b12b4c64fa4eb279531340c89b85f30c0e39f71149fe4fc",
+    "results/packet/analysis_manifest.json": "7b68f32bfbc24011f6c588a7556e65d02d85edab4af620a09ebdfab5760a21c9",
+    "results/packet/analysis_reference_subset/analysis_manifest.json": "1d516d2353c750d74ecc4467d228ac58b379810b98310edd7219cc0036ea095c",
+    "results/packet/analysis_reference_subset/paired_contrasts.csv": "3f93b7bc49acaa8d778ee60482229bcba710d836126d3dfce7afa340379882d6",
+    "results/packet/analysis_reference_subset/policy_summary.csv": "e0dda234217d9cf8b838a1c4a7c9d98cd13cd8d781caecb1a528df6e82f1955f",
+    "results/packet/analysis_reference_subset/scenario_summary.csv": "44c9496d24203b80582a458873b5059786eca684addddd8d0bc0cad805d8aee2",
+    "results/packet/analysis_relaxed_deadlines/analysis_manifest.json": "a7103148d8994a90b0bdc439f4b5cacc13b973681124afb5c07be70b88b636dd",
+    "results/packet/analysis_relaxed_deadlines/paired_contrasts.csv": "9d3012ac00b365d63d9b24c67bd533fa4d51574d4410f8a6110c1ce599c5c67b",
+    "results/packet/analysis_relaxed_deadlines/policy_summary.csv": "94909dd977f9f5b734b74f80ac2b93b47f2761f006cfd477a3a9b59f65b79561",
+    "results/packet/analysis_relaxed_deadlines/scenario_summary.csv": "696107306c276e0ed67527a6e91ef0299737929a7be2f76f2127c3343f6f9074",
+    "results/packet/analysis_retain_handoff_queue/analysis_manifest.json": "227847e51ba22672ad8d93800504ad01233f2a14f62da9657227b3af6cb73511",
+    "results/packet/analysis_retain_handoff_queue/paired_contrasts.csv": "4e5c074e401329cb12216bc884ba5c59d51043e6d53355b3dbec80d52d64a935",
+    "results/packet/analysis_retain_handoff_queue/policy_summary.csv": "d46ded154632cc9e4a528fac50865cf9a055f087293fb31abb7534c416eb001e",
+    "results/packet/analysis_retain_handoff_queue/scenario_summary.csv": "7ddfe66848a44f1b3fd7d2c962692338dc4d7953be58a5ce087c4877817f5e54",
+    "results/packet/analysis_stale_reports/analysis_manifest.json": "9d1ebd1669390b89e8fb2d5fee2aab939d7c0808126d5417d9745d26aeeb8fe2",
+    "results/packet/analysis_stale_reports/paired_contrasts.csv": "147202fe76974a9b0a734aeb13ce5761f425d6d3fcc3c5b7f45e0cd99b634399",
+    "results/packet/analysis_stale_reports/policy_summary.csv": "61273f640874d90ab98f45d52f9f2e8fc66cfcd05de3817df078e3f62924f462",
+    "results/packet/analysis_stale_reports/scenario_summary.csv": "2af07528db2ee69d371acaaf7ab8aed96ff1bd3c3954c1ca61eea4bc4892eb8b",
+    "results/packet/analysis_tight_deadlines/analysis_manifest.json": "1b890e13f312c50b7a799d9f2aeb9175602ee19e0e6639425191c8b11ca38e81",
+    "results/packet/analysis_tight_deadlines/paired_contrasts.csv": "bfebd632e59512acedaa45ec67e0352d5ce0ad2a6674299c1a0793bfb417f062",
+    "results/packet/analysis_tight_deadlines/policy_summary.csv": "6201d9c25466e345127e5ba7073cc4b98f28ce30e0dd059f85c56009d1b671a4",
+    "results/packet/analysis_tight_deadlines/scenario_summary.csv": "5e460c6a2b93b604aa8c69cb63658e4fe201c1f725cd19324871956e2e939481",
+    "results/packet/analysis_time_step_20ms/analysis_manifest.json": "a28c8794cddd93710406bcaea9b96b709e01471cec01d1b99748e40e73083178",
+    "results/packet/analysis_time_step_20ms/paired_contrasts.csv": "81cca1979d4151ac447b7f5ed912c92f6e8bfedaf4ab80e56e0d8dd0d042be06",
+    "results/packet/analysis_time_step_20ms/policy_summary.csv": "1940f83ea185f2a5e3a94f5abf462738e4e22aa8e1eb3595d4d26f0d06a619c6",
+    "results/packet/analysis_time_step_20ms/scenario_summary.csv": "37ef6a44d09c2609193600e3f8234a9b6fd5b364a76b4e2e45172a9a7a3826c8",
+    "results/packet/analysis_time_step_5ms/analysis_manifest.json": "caa7252dc886ec00d5d711ca8d2decdcc6f5d9bea33809e71531a507cc827d6c",
+    "results/packet/analysis_time_step_5ms/paired_contrasts.csv": "62ddb75f19996d2186ab3045bebbe9a3775bef4e4f76c5f7752089ff9703473a",
+    "results/packet/analysis_time_step_5ms/policy_summary.csv": "9a62dbac743f0ba9871b31dc662c3bdba91a0fc7c08e2e9555c5739feff0d975",
+    "results/packet/analysis_time_step_5ms/scenario_summary.csv": "450efdcd2630a473341c1c4bcc681a1b6c4178e6a936022c0f52749c2aa0660e",
+    "results/packet/paired_contrasts.csv": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+    "results/packet/policy_summary.csv": "988aba4ed0c4a07a2cdf2302fc0d582af55a4a7cfca504d02d686e9ac424bd5e",
+    "results/packet/scenario_summary.csv": "1b9ec48cc648021de465bdf9cf9b729bc9e3aceb512acdda2a1cff84b4c9a7e0"
+  },
+  "analysis_optimization_record": {
+    "checked": true,
+    "evidence_sha256": "cd5c2c5d9276073e44c4406f6c717df920e2229dec4d4ea01f1ca548a4d1bbfd",
+    "paired_contrasts_sha256": "7118c17feced499fe43a76da1b4274cbdd2a52e106f972d8dcc9d1542c860aa1",
+    "scope": "Checks recorded before/after equality; does not rerun the prior analyzer"
+  },
+  "checks": [
+    "Exact declared grids and no duplicate rows",
+    "Paired input/world fingerprints and offered traffic",
+    "Foreground and background packet conservation",
+    "Generated denominators, score identities and fraction bounds",
+    "Transition counters and blackout union",
+    "Frozen selection/source hashes and completed CSV hashes",
+    "All main and sensitivity analyses present",
+    "18 preselected replays agree exactly with main scalars"
+  ],
+  "command": [
+    "scripts/validate_packet_results.py",
+    "--require-figures"
+  ],
+  "completed_at_utc": "2026-10-14T22:18:23.819241+00:00",
+  "development_rounds": [
+    {
+      "configurations": 19,
+      "frozen_at_utc": "2026-10-14T21:47:40.242261+00:00",
+      "runs": 456
+    },
+    {
+      "configurations": 43,
+      "frozen_at_utc": "2026-10-14T21:52:03.437930+00:00",
+      "runs": 1032
+    }
+  ],
+  "development_runs_executed": 1488,
+  "figures": {
+    "checked": true,
+    "files": [
+      "voice_video_deadline_misses.png",
+      "voice_video_deadline_misses.pdf",
+      "scenario_primary_difference.png",
+      "scenario_primary_difference.pdf",
+      "handoff_deadline_tradeoff.png",
+      "handoff_deadline_tradeoff.pdf",
+      "longest_voice_outage_cdf.png",
+      "longest_voice_outage_cdf.pdf"
+    ],
+    "output_sha256": {
+      "handoff_deadline_tradeoff.pdf": "eba19d3f0b02a4757c16b30a4d2998c04627f2df1bf68f5b638b60cf1bf89ca3",
+      "handoff_deadline_tradeoff.png": "250c2d2c03beb31a970a09d857e38fda2774d9b38e85c25e5a2236bc7805a366",
+      "longest_voice_outage_cdf.pdf": "5b912f093509667c1286f8461664f72afa908fe4436cfc581408fa9062b97473",
+      "longest_voice_outage_cdf.png": "8c11773af6e962b2b881b4a346d5e1d7c548136ba3f136191b51be110c39b9ce",
+      "scenario_primary_difference.pdf": "27df646c96442ae4c36812aabb86ad1e3e3fd04cf4648441af1fedcea04dd11c",
+      "scenario_primary_difference.png": "a2d56af717cb94b68253a9f3fd0db48f8a4a5ffb4fd6804e5a394a4b45a2d855",
+      "voice_video_deadline_misses.pdf": "c75471982009598af428b24c01a583980518582a5acefb76e1a3061e5eb51549",
+      "voice_video_deadline_misses.png": "3da80c3225dffc83fc456750d20a3b01d36cee2bf690866450bb6cb0f0f55179"
+    },
+    "timeline": {
+      "checked": true,
+      "current_plot_script_sha256": "34edd469d6ebc2dfde77bccbf00eedc10f5293e2bac105551aba62abd0a7c661",
+      "manifest_sha256": "0b161bdd57e05d178822c7fe7f3b8fc339d56581a41784181b16d49ecd12c5ff",
+      "output_sha256": {
+        "preselected_timeline.pdf": "b4d22ae5a0cca923ff566ee6d42183a135f974c0508d0cf1194e52a1b3714ebd",
+        "preselected_timeline.png": "d30b11e540ae05cfa3045dc975079a3174a4df9ac95936380dbc6b99000da76e"
+      }
+    }
+  },
+  "interpretation": "Internal software/data verification of a synthetic packet-queue study. No codec, IEEE 802.11 implementation, hardware, or human-quality validation.",
+  "main_paired_worlds": 240,
+  "main_runs": 2400,
+  "matched_reference": {
+    "new_simulation_runs": 0,
+    "rows": 160,
+    "sha256": "40b0fc60473e933535a8b4c2cbf3245b446d21a5d03ab524bd38e833be9dd83b"
+  },
+  "model": "packet-roaming-v2",
+  "passed": true,
+  "python": "3.14.5",
+  "run_manifests": [
+    {
+      "csv_hashes_checked": 1,
+      "elapsed_seconds": 67.18533367203781,
+      "file": "results/packet/development_history/run_manifest_tune.json",
+      "python": "3.14.5",
+      "stage": "tune",
+      "workers": 4
+    },
+    {
+      "csv_hashes_checked": 2,
+      "elapsed_seconds": 405.81631257996196,
+      "file": "results/packet/run_manifest_evaluate.json",
+      "python": "3.14.5",
+      "stage": "evaluate",
+      "workers": 4
+    },
+    {
+      "csv_hashes_checked": 13,
+      "elapsed_seconds": 285.6311170179979,
+      "file": "results/packet/run_manifest_sensitivity.json",
+      "python": "3.14.5",
+      "stage": "sensitivity",
+      "workers": 4
+    },
+    {
+      "csv_hashes_checked": 1,
+      "elapsed_seconds": 128.70345426897984,
+      "file": "results/packet/run_manifest_tune.json",
+      "python": "3.14.5",
+      "stage": "tune",
+      "workers": 4
+    }
+  ],
+  "selected_replays": {
+    "file": "results/packet/selected_traces.json.gz",
+    "replayed_by": "scripts/trace_packet_study.py; validator checks its saved artifact",
+    "replays_checked": 18,
+    "scalar_equality": "exact",
+    "seed": 50001,
+    "sha256": "5c615826a20b0e5633a3ca784653c8651c7f8e4774a757f44477ed8cc61fd084",
+    "voice_and_frame_arrays_match": true
+  },
+  "sensitivity_runs": 1280,
+  "started_at_utc": "2026-10-14T22:18:22.994359+00:00",
+  "supplementary_load_sensitivity": {
+    "analyses": [
+      "results/packet/additional_load/analysis_tight_deadlines",
+      "results/packet/additional_load/analysis_relaxed_deadlines",
+      "results/packet/additional_load/analysis_costly_transitions",
+      "results/packet/additional_load/analysis_stale_reports",
+      "results/packet/additional_load/analysis_cost_underestimate",
+      "results/packet/additional_load/analysis_time_step_5ms",
+      "results/packet/additional_load/analysis_time_step_20ms",
+      "results/packet/additional_load/analysis_retain_handoff_queue",
+      "results/packet/additional_load/reference_analysis"
+    ],
+    "analysis_manifest_sha256": "ff7ca93bb22e7e25b7272fcf4e90952754feeb0d690e3a356251cb1364ea2a88",
+    "checked": true,
+    "designation": "secondary development-informed supplement; not part of the original prospective sensitivity plan",
+    "directory": "results/packet/additional_load",
+    "elapsed_seconds": 209.48259048501495,
+    "raw_sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998",
+    "retuning": false,
+    "reused_main_reference_rows": 200,
+    "runs": 320,
+    "specification_sha256": "f9932e25cfe19e6e464c253b7cf48dab1e7a59abddebb1af1ff79d956b04d838",
+    "tables": [
+      {
+        "condition": "tight_deadlines",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "relaxed_deadlines",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "costly_transitions",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "stale_reports",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "cost_underestimate",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "time_step_5ms",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "time_step_20ms",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      },
+      {
+        "condition": "retain_handoff_queue",
+        "file": "results/packet/additional_load/runs.csv",
+        "inferred_unfinished_successful_attempts": 0,
+        "paired_worlds": 40,
+        "rows": 40,
+        "sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998"
+      }
+    ],
+    "workers": 2
+  },
+  "tables": [
+    {
+      "condition": "development",
+      "file": "results/packet/development_history/development_runs.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 24,
+      "rows": 456,
+      "sha256": "dabccfb43cdc3a0226d196f0100614edcabf39d31147281b0ed6ebe803e2e4a4"
+    },
+    {
+      "condition": "development",
+      "file": "results/packet/development_runs.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 24,
+      "rows": 1032,
+      "sha256": "dc75b86f0249a8cc4b98b7e83e06cdb06c6fb25e8af9f91f79ce5f5e83d903a4"
+    },
+    {
+      "condition": "main",
+      "file": "results/packet/main_runs.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 240,
+      "rows": 2400,
+      "sha256": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf"
+    },
+    {
+      "condition": "tight_deadlines",
+      "file": "results/packet/sensitivity_tight_deadlines.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "5148f4fa7daacc6c7b3408c0ea372fb070aed1a48f99e492d1833776e62c7e9d"
+    },
+    {
+      "condition": "relaxed_deadlines",
+      "file": "results/packet/sensitivity_relaxed_deadlines.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "04f22cfd8b173f79eea2345b0e42683bf1a6a62b64d784e09d52409e9eb5a64c"
+    },
+    {
+      "condition": "costly_transitions",
+      "file": "results/packet/sensitivity_costly_transitions.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "6cb7e3e7873996dd4a87eb5ebe3c269ea2f21d46ab925485bd349bf282ed8713"
+    },
+    {
+      "condition": "stale_reports",
+      "file": "results/packet/sensitivity_stale_reports.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "80d3c956ed8562ddbff1f23e9ea1fa62d9ffb2c3f715f152f4cfd723b9c68d69"
+    },
+    {
+      "condition": "cost_underestimate",
+      "file": "results/packet/sensitivity_cost_underestimate.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "c8cbf9699a3d404ba617759b1fa39d924f8f1d04700367d94e33a91c73dee654"
+    },
+    {
+      "condition": "time_step_5ms",
+      "file": "results/packet/sensitivity_time_step_5ms.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "c0e054d77fb408641e3d075177d1677e5fc9130878da14cb1d4512ba7850a300"
+    },
+    {
+      "condition": "time_step_20ms",
+      "file": "results/packet/sensitivity_time_step_20ms.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "8de73333ac30137031b02a76cd987105eba4147ce9c0981f9cad37b193f24f95"
+    },
+    {
+      "condition": "retain_handoff_queue",
+      "file": "results/packet/sensitivity_retain_handoff_queue.csv",
+      "inferred_unfinished_successful_attempts": 0,
+      "paired_worlds": 40,
+      "rows": 160,
+      "sha256": "7e33fc60061d5028f1624fe02f22e1bb5ae7ed1eb53c3bc2b6042c60e87b8565"
+    }
+  ],
+  "total_executed_policy_runs_excluding_replays": 5488,
+  "validation_seconds": 0.8246164000011049,
+  "validator_sha256": "44cb85f3651e657daffa08b3776e1370e024519a90e403a08e8ee269860df7d2"
+}

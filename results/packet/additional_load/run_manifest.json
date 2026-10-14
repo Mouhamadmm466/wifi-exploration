@@ -1,0 +1,24 @@
+{
+  "completed_at_utc": "2026-10-14T22:00:36.780836+00:00",
+  "elapsed_seconds": 209.48259048501495,
+  "expected_rows": 320,
+  "platform": "macOS-26.6.2-x86_64-i386-64bit-Mach-O",
+  "python": "3.14.5",
+  "raw_file": "runs.csv",
+  "raw_sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998",
+  "rows": 320,
+  "schema_version": 1,
+  "source_hashes": {
+    "configs/packet-study.json": "0e4fa2d9868f59ef65e4c4918854fd3c1941aef1e3fb0a2abd37c5b0bea341e0",
+    "docs/packet-load-supplement.md": "9ec49ba3e1c24f326acc1232e96e53fa6290532e2da6e7599784003598141979",
+    "results/packet/frozen_parameters.json": "67797f25327cf36c3f9a7ea6bccdbd3a9f37b8e562a5127db3fdcddb8fa39d92",
+    "scripts/run_packet_load_sensitivity.py": "41967f42e8c5aa3034c8f6c288cce18ec5957a5e12340bbd7679615d014ec831",
+    "scripts/run_packet_study.py": "4edbcdbfef362d4a7438d75a2be943ac373116ca97497c794933822cf7999074",
+    "src/packet_roaming.py": "f31be12c232fd98f3fc6b57e92bb07a3014a0925c1395813245d1a34526fd27f"
+  },
+  "specification_file": "specification.json",
+  "specification_sha256": "f9932e25cfe19e6e464c253b7cf48dab1e7a59abddebb1af1ff79d956b04d838",
+  "started_at_utc": "2026-10-14T21:57:07.295768+00:00",
+  "status": "complete",
+  "workers": 2
+}

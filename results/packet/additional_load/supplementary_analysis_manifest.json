@@ -1,0 +1,37 @@
+{
+  "completed_at_utc": "2026-10-14T22:07:16.221737+00:00",
+  "analysis_script_sha256": "0ec83fd708b938f9b464aebbebbf0565d7f9fceb09820dbc67c287cb030b4561",
+  "paired_analysis_script_sha256": "a49130ff00b8d72fa86916af71d79c4511f76fb05df95e7a2c5b4980da2c0ea6",
+  "specification_sha256": "f9932e25cfe19e6e464c253b7cf48dab1e7a59abddebb1af1ff79d956b04d838",
+  "supplement_raw_sha256": "f67c84491812431d0d9dbc30bfd7d5ffa0986a049ef2624959b15cfae2944998",
+  "original_manifest_sha256": "52a44c2448232302d29e75c22d385cb98e1dc2945644fa87069a3ba98ae0f6b1",
+  "original_input_hashes": {
+    "sensitivity_tight_deadlines.csv": "5148f4fa7daacc6c7b3408c0ea372fb070aed1a48f99e492d1833776e62c7e9d",
+    "sensitivity_relaxed_deadlines.csv": "04f22cfd8b173f79eea2345b0e42683bf1a6a62b64d784e09d52409e9eb5a64c",
+    "sensitivity_costly_transitions.csv": "6cb7e3e7873996dd4a87eb5ebe3c269ea2f21d46ab925485bd349bf282ed8713",
+    "sensitivity_stale_reports.csv": "80d3c956ed8562ddbff1f23e9ea1fa62d9ffb2c3f715f152f4cfd723b9c68d69",
+    "sensitivity_cost_underestimate.csv": "c8cbf9699a3d404ba617759b1fa39d924f8f1d04700367d94e33a91c73dee654",
+    "sensitivity_time_step_5ms.csv": "c0e054d77fb408641e3d075177d1677e5fc9130878da14cb1d4512ba7850a300",
+    "sensitivity_time_step_20ms.csv": "8de73333ac30137031b02a76cd987105eba4147ce9c0981f9cad37b193f24f95",
+    "sensitivity_retain_handoff_queue.csv": "7e33fc60061d5028f1624fe02f22e1bb5ae7ed1eb53c3bc2b6042c60e87b8565",
+    "main_runs.csv": "9727bd0384bafd2ee17ae6b8e0616dc676092c9474ef1f82d8b9c73fc79f7caf"
+  },
+  "combined_table_hashes": {
+    "analysis_tight_deadlines/combined_runs.csv": "49a3bee7b9a20f0d5c9bab54bdaa81f9a48e6ef968936967016fbab39b497cfd",
+    "analysis_relaxed_deadlines/combined_runs.csv": "f76e09774c2018dde8dc7fc05e21303a657d150794b917053f0c2402d4f1cb33",
+    "analysis_costly_transitions/combined_runs.csv": "85059b9343042e8c7d9fc27bc252e6cc034320f6585f11c4b508ab42e74711d7",
+    "analysis_stale_reports/combined_runs.csv": "5205a834576f243e58161d92be45284fabbb5ffb943bcbac3ff60ce23668a184",
+    "analysis_cost_underestimate/combined_runs.csv": "740b743a084f2a7ded9308923a3b2e1ae417262a9c8f3b5bb04322bd995340ca",
+    "analysis_time_step_5ms/combined_runs.csv": "d9df177966102692909f3c1956312b1acd37b6775c539babf5f8c69c15d0744e",
+    "analysis_time_step_20ms/combined_runs.csv": "b3d68c3b9c7904051a142b218257bd4d60ebb514bab5dec3f4b42d817c9f3df0",
+    "analysis_retain_handoff_queue/combined_runs.csv": "4500a397cfadb9543a0c198c3f3bdb3dc1b44ce60ec451ef0f246c92c436091f",
+    "reference_analysis/combined_runs.csv": "4714286a4e372d4e88c8a33cd3f457dbcfb53dababe9199d04a9c58491b7e3d4"
+  },
+  "summary_sha256": "11a5a71967bc18e86d5285cb759ee16bea8b628197edecae8708ceb72268657f",
+  "supplementary_runs": 320,
+  "conditions": 8,
+  "worlds_per_condition": 40,
+  "seed_blocks_per_condition": 10,
+  "comparison": "predictive minus load_aware",
+  "designation": "secondary, unadjusted, development-informed"
+}

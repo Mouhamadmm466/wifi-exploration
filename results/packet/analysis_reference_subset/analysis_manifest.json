@@ -1,0 +1,20 @@
+{
+  "analysis_sha256": "a49130ff00b8d72fa86916af71d79c4511f76fb05df95e7a2c5b4980da2c0ea6",
+  "rows": 160,
+  "worlds": 40,
+  "policies": [
+    "app_myopic",
+    "cautious_v1",
+    "predictive",
+    "rssi"
+  ],
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 81631,
+  "primary_metric": "equal-weight mean of voice packet and whole-video-frame deadline miss fractions",
+  "primary_contrast": "predictive minus app_myopic; negative favors predictive",
+  "pooling": "equal scenario average within seed, then equal seed weight",
+  "scope": "uncertainty across seeded synthetic conditions; not real-device confidence",
+  "multiplicity": "only primary contrast/metric designated primary; other CIs unadjusted descriptive",
+  "input_file": "/Users/mouhamad/Documents/Codex/2026-10-14/hi-x20/outputs/wifi-exploration/results/packet/reference_subset.csv",
+  "input_sha256": "40b0fc60473e933535a8b4c2cbf3245b446d21a5d03ab524bd38e833be9dd83b"
+}

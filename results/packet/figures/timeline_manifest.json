@@ -1,0 +1,8 @@
+{
+  "input": "results/packet/selected_traces.json.gz",
+  "input_sha256": "5c615826a20b0e5633a3ca784653c8651c7f8e4774a757f44477ed8cc61fd084",
+  "scenario": "short_cells",
+  "seed": 50001,
+  "selection": "Fixed before held-out evaluation; not selected for an extreme outcome.",
+  "metric": "consecutive missing voice packets or incomplete video frames at scheduled deadlines; not decoded media."
+}
